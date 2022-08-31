@@ -45,6 +45,51 @@ Dalam pelaksanaannya, pengamat berhenti pada suatu titik pengamatan selama 20 me
 knitr::include_graphics("images/pc_ilustration.jpg")
 ```
 
+**Cara Pelaksanaan :**
+
+1. Sebelum menuju ke titik hitung, pengamat sudah menentukan lokasi titik – titik hitung tersebut di GPS.
+2. Pengamat menuju titik yang sudah ditentukan di dalam transek, dimana jarak antar point sepanjang 200 meter.
+3. Setiap titik ditandai di dalam GPS
+4. Pengamat berdiri di titik tengah dari point yang sudah ditentukan.
+5. Pengamat mengamati dan mencatat burung yang terdengar ataupun terlihat selama 20 menit ke dalam lembar pengamatan titik hitung (Gambar \@ref(fig:ldpth))
+6. Untuk penggunaan perekam suara, bisa digunakan selama 20 menit pengamatan atau ketika mendengar suara-suara yang menarik.
+7. Asisten dapat membantu mengukur parameter lingkungan disekitar lokasi pengamatan selama durasi pengamatan kedalam lembar data parameter lingkungan (Gambar \@ref(fig:ldppl)) secara semi-kuantitatif.
+
+#### Daftar jenis MacKinnon {-}
+
+Metode ini pada dasarnya membuat sejumlah daftar yang berisi catatan nama jenis-jenis burung yang dijumpai untuk mendapat gambaran cepat mengenai kekayaan dan komposisi jenis burung pada suatu wilayah. Rincian prosedur penyusunan daftar dijelaskan di bawah ini.
+
+**Cara Pelaksanaan:**
+
+1. Berjalan di suatu habitat, seperti perjalanan dari desa menuju camp, di sekitar camp, dari camp menuju transek, transek satu kilo diluar point dan ketika perjalanan dari point menuju point yang lain dan mencatat semua jenis burung yang dijumpai sampai tercatat 20 jenis burung dalam satu daftar. Satu jenis burung hanya dicatat satu kali saja dalam satu daftar ini, meskipun dijumpai beberapa kali
+
+2. Setelah tercatat 20 jenis burung, lalu membuat daftar yang baru untuk mencatat jenis-jenis yang dijumpai selanjutnya (daftar no.2). Apabila dijumpai jenis yang pernah tercatat dalam daftar pertama maka tetap dicatat dalam daftar kedua, tetapi sebagaimana dalam pembuatan daftar pertama, jenis yang sudah dicatat dalam daftar kedua tidak boleh dicatat lagi meskipun dijumpai beberapa kali (di dalam satu daftar tidak boleh ada pengulangan jenis). Jika suatu spesies ditemukan kembali dalam 1 daftar yang belum mencapai 20 spesies, maka spesies tersebut hanya dihitung sebagai tambahan populasi pada spesies yang sama (bukan spesies baru)
+
+3. Jika menemukan spesies yang menarik maka di tandai posisinya di dalam GPS, begitu juga jika mendengar suara yang menarik maka bisa di rekam di perekam suara.
+
+Metode ini meskipin sederhana, namun membutuhkan pengetahuan yang baik terhadap ekologi dan perilaku burung-burung di area survei. Terkadang pengamat boleh untuk duduk bersembunyi sebentar saat berada habitat yang sedang berbuah dan berbunga untuk melihat dan mendengar burung-burung yang berkunjung. Lampiran Gambar \@ref(fig:ldpml), merupakan contoh lembar data untuk metode daftar jenis MacKinnon.
+
+#### Perekam suara pasif{-}
+Untuk melengkapi daftar jenis burung-burung yang mungkin terlalu sensitif terhadap keberadaan manusia / pengamat, maka penggunaan perekam suara dapat dijadikan alternatif karena mampu merekam tanpa kehadiran pengamat selama waktu yang dibutuhkan dan tidak akan ada bias dalam identifikasi karena memiliki data suara yang terdokumentasikan dengan baik. Dalam praktiknya, FFI`s IP seringkali menggunakan perangkat perekam suara _audiomoth_ untuk merekam suara burung-burung di hutan. 
+
+Perekam suara dapat ditempatkan disetiap titik hitung sebagai data pelengkap atau lokasi spesifik lainnya yang diperkirakan memiliki kelimpahan burung dengan jarak minimal antar perekam suara 250 - 1000 meter. Setiap perekam suara diaktifkan minimal 1 x 24 jam agar burung diurnal dan nokturnal dapat terekam. Prinsipnya semakin lama di aktifkan maka data yang diperoleh semakin baik, perangkat ini dapat diaktifkan hingga sekitar 10 hari dengan baterai tipe alkalin dengan pengaturan 5 menit merekam dan 30 menit jeda. Adapun protokol penggunaan perekam suara adalah sebagai berikut;
+
+1. Melakukan pengaturan perangkat dengan spesifikasi sebagai berikut 
+   * Sample rate; 48 Khz
+   * Gain; Medium
+   * Sleep duration; 1800s
+   * Recording duration; 300s 
+
+2. Pastikan pengaturan sudah sesuai dengan yang kita inginkan, dengan melakukan simulasi terlebih dahulu
+
+3. Beri label pada setiap perangkat untuk membedakan antar perekam suara
+
+4. Bungkus perangkat dengan plastik atau penutup kedap air dan pasang pada batang pohon dengan ketinggian sekitar 2 meter.
+
+5. Catat kordinat pemasangan, waktu mulai dan waktu berakhirnya pada lembar pengamatan
+
+
+
 ## Herpetofauna {-}
 
 ## Mamalia {-}

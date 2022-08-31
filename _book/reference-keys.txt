@@ -1,3 +1,6 @@
 tab:tb1
 tab:tb2
 fig:fig1
+fig:ldpth
+fig:ldppl
+fig:ldpml
