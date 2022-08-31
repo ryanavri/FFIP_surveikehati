@@ -1,0 +1,55 @@
+# Protokol Survei {-}
+
+## Avifauna {-}
+Pengamatan burung atau avifauna yang biasa dilakukan oleh FFI`s IP mengadopsi dua metode utama yaitu metode titik hitung di transek (_Point transect_) (Buckland, 2006) dan daftar jenis MacKinnon (_Mackinnon lists_) (MacKinnon & Phillipps, 1993). Pada dasarnya metode point transect merupakan modifikasi dari metode titik hitung, namun unit sampelnya berada dalam transek yang sudah ditetapkan, metode ini efektif digunakan pada hutan tropis, dimana jalurnya seringkali sulit untuk dilalui dan burung menghuni seluruh strata hutan dari permukaan tanah hingga diatas tajuk. Dengan fokus pada titik tertentu di dalam transek, deteksi burung jadi lebih efektif. Pada Mackinnon lists survei dilakukan bisa di jalur transek atau pun di luar transek. Kedua metode ini saling melengkapi dalam pengumpulan data jenis-jenis burung
+
+### Persiapan Tim {-}
+Tim avifauna idealnya terdiri dari 2 orang, yaitu pengamat utama dan asisten lapangan. Dengan peran dan tanggung jawab yang  terangkum dalam tabel \@ref(tab:tb1).
+
+Table: (\#tab:tb1) Peran dan tanggung jawab tim avifauna
+
+| Peran | Tanggung jawab  | Syarat khusus |
+|:--|:------|:------|
+| Pengamat utama | Mengamati dan mengidentifikasi burung pada lokasi yang disurvei, kemudian memberikan informasi pada pencatat mengenai data yang dibutuhkan seperti yang tertera pada lembar data | Memahami protokol serta identifikasi jenis burung dan penggunaan peralatan pendukung survei|
+| Asisten lapangan | Mencatat data temuan survei dan juga sebagai pencatat waktu (_time keeper_) | Memahami protokol survei avifauna dengan baik |
+
+### Peralatan {-}
+
+Table: (\#tab:tb2) Peralatan yang dibutuhkan tim avifauna
+
+|  Peralatan | Tujuan Penggunaan | Spesifikasi |
+|:--|:------|:------|
+|  Alat Tulis | Pencatatan data dan penandaan | Kuat, tidak mudah luntur | 
+|  Lembar data | Lembar pencatatan data | Tahan air | 
+|  Alat Navigasi (GPS, Peta dan Kompas) | Untuk navigasi sekaligus penanda lokasi geografis | Tahan air | 
+|  Binokuler | Untuk melihat dan mengidentifikasi burung | Perbesaran lensa minimal 8 x 40 atau 7 x 50 | 
+|  Kamera | Untuk dokumentasi burung dan identifikasi lebih lanjut | DSLR dengan lensa tele 300 – 400 mm. Alternatif lainnya dapat menggunakan kamera digital _prosummer_ dengan perbesaran optik diatas 30x | 
+|  Perekam suara genggam | Merekam suara burung untuk identifikasi lebih lanjut | Perekam suara digital dengan fitur _directional microphone_  |
+|  Perekam suara pasif | Merekam suara burung untuk identifikasi burung yang sensitif | Tahan air. Perangkat yang biasa digunkan adalah _audiomoth_ (Hill et al., 2019) |
+
+### Protokol Pengamatan{-}
+#### Titik hitung{-}
+Protokol untuk survei dengan metode titik hitung dalam transek yang dilakukan oleh FFI`s IP menggunakan enam buah titik hitung dengan rentang antar titik berjarak 200m sehingga akan membentuk garis transek sejauh 1 Km (Gambar \@ref(fig:fig1)). Radius pengamatan per titik adalah 50m dari titik pusat. Titik pusat yang dimaksud adalah titik yang telah ditentukan. Pengamatan menggunakan titik hitung mengikuti asumsi-asumsi berikut ini: 
+
+1.	Burung tidak mendekati pengamat atau terbang;
+2.	Burung yang ada dalam titik cuplik dapat terdeteksi 100%;
+3.	Burung tidak bergerak selama perhitungan;
+4.	Burung berperilaku bebas (tidak tergantung satu sama lain);
+5.	Pelanggaran terhadap asumsi tersebut tidak berpengaruh terhadap habitat atau desain studi;
+6.	Estimasi jarak akurat;
+7.	Burung dapat teridentifikasi dengan baik seluruhnya.
+
+Dalam pelaksanaannya, pengamat berhenti pada suatu titik pengamatan selama 20 menit untuk mengamati dan mencatat jenis burung yang dapat diidentifikasi di sekitar lokasi penelitian. Setelah 20 menit, pengamat kemudian berpindah ke titik pengamatan lain dan kemudian melakukan pengamatan lagi di titik pengamatan tersebut dengan waktu yang sama yaitu selama 20 menit. Jumlah titik pada setiap jalur adalah enam titik, dengan jarak masing-masing titik 200 m, sehingga panjang jalur pengamatannya adalah 1 km. Pengamatan dilakukan pada pagi hari pukul 06.00-09.00 WIB dan sore hari pukul 15.30-18.00 WIB. Perjumpaan terhadap jenis burung di luar titik pengamatan tidak diperhitungkan. Pada setiap jalur pengamatan dilakukan pengulangan pengamatan sebanyak dua kali. Pengamatan dilakukan melalui perjumpaan langsung dengan objek (visual) dan melalui suara.  Parameter yang dicatat adalah jenis burung, jumlah yang ditemukan dan aktifitas. Jika memungkinkan, maka jarak setiap burung yang dijumpai terhadap pengamat juga diukur, dengan data seperti itu maka kepadatan burung juga dapat dihitung dengan konsep distance sampling (Buckland et al., 2015).
+
+```{r fig1, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi titik hitung di transek'}
+knitr::include_graphics("images/pc_ilustration.jpg")
+```
+
+## Herpetofauna {-}
+
+## Mamalia {-}
+
+## Vegetasi {-}
+
+
+
