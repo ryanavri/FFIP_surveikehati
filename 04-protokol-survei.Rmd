@@ -182,10 +182,114 @@ Beberapa hal penting yang perlu diperhatikan dalam melakukan survei Herpetofauna
 * Penyimpanan spesimen yang diawetkan sebaiknya diletakkan pada tempat khusus yang terhindar dari cahaya matahari langsung.
 
 ## Mamalia {-}
+Pengamatan mamalia secara umum jauh lebih sulit dibandingkan dengan taksa lainnya dikarenakan di hutan hujan tropis, beberapa taksa dari mamalia cenderung sangat sulit untuk dijumpai, oleh karena itu metode yang digunakan lebih banyak mengandalkan penggunaan peralatan untuk penangkapan satwa dibandingkan dengan pengamatan atau perjumpaan secara langsung, bahkan pengamatan yang bersifat observatif seringkali hanya mengandalkan jejak yang ditinggalkan dari satwa itu sendiri.
+
+Dikarenakan variasi perilaku dan relung yang jauh berbeda dari setiap taksa mamalia, maka teknik pengamatannya juga berbeda-beda. Beberapa jenis mamalia besar dapat dengan mudah dideteksi secara langsung, seperti jenis-jenis primata, tetapi sebagian besar mamalia kecil memerlukan pengukuran anggota tubuhnya sebelum dapat diidentifikasi. Beberapa buku menjabarkan metode yang spesifik untuk satwa bahkan spesies tertentu seperti pengamatan orangutan (Atmoko & Rifqi, 2012), kelelawar (Prasetyo et al., 2011) maupun harimau dan satwa mangsanya (Pinondang et al., 2018).
+
+Dalam konteks kajian yang biasa dilakukan oleh FFI`s IP biasanya menggunakan metode pengamatan langsung menggunakan transek garis yang dikombinasikan dengan metode eksplorasi, sedangkan untuk metode penangkapan, dapat menggunakan _live trap_, jaring kabut, perangkap harpa hingga kamera pengintai (_camera trap_). Metode menggunakan kamera pengintai akan dijabarkan dalam panduan khusus, namun hasil yang didapat dari kamera pengintai dapat dikombinasikan dengan kajian ini untuk melengkapi daftar spesies, terutama jenis-jenis yang elusif
+
+Target taksa dari setiap metode terangkum dalam ~~Tabel 1~~. Dalam praktiknya, kajian keanekaragaman hayati mamalia, tidak perlu menggunakan semua perangkat yang disebutkan. Sesuaikan perangkat yang akan dibawa dengan tujuan survei serta sumber daya yang tersedia.
 
 ### Persiapan Tim {-}
+Pelaksanaan survei mamalia di FFI`s IP membutuhkan keterampilan dan langkah kerja yang beragam, sehingga membutuhkan beberapa asisten untuk membantu di lapangan. Idealnya, satu orang peneliti utama dibantu dengan 4 orang asisten dengan peran dan tanggung jawab seperti terlihat pada Tabel \@ref(tab:tbtm). Dalam pelaksanaannya, jumlah, susunan, formasi, peran dan tanggung jawab asisten dapat berubah sesuai kondisi.
+
+Table: (\#tab:tbtm) Peran dan tanggung jawab tim mamalia
+
+| Peran | Tanggung jawab  | Syarat khusus |
+|:--|:------|:------|
+| Pengamat utama | Koordinasi pekerjaan kepada seluruh asisten, memastikan seluruh data tercatat dengan benar sesuai protokol pada lembar data | Memahami protokol survei mamalia dan identifikasi jenis mamalia |
+| Asisten I - III | Memasang dan membongkar perangkap harpa dan jaring kabut | Dapat memasang dan membongkar perangkap harpa dan jala kabut, serta mampu memisahkan kelelawar yang terperangkap ke dalam kantong sampel |
+| Asisten V | Memasang dan membongkar perangkap kasmin  | Dapat memasang dan membongkar perangkap kasmin, serta mampu memisahkan hewan yang terperangkap ke dalam kantong sampel |
+
 ### Peralatan {-}
 ### Protokol Pengamatan{-}
+
+#### Transek garis{-}
+Pada metode transek garis, pengamat berjaringn di sepanjang jalur transek sambil mengidentifkasi dan mencatat satwa yang dijumpai secara langsung atau tanda satwa yang ditinggalkan seperti misalnya: tapak, cakaran, feses, aroma, atau sarang, yang dapat digunakan sebagai indikator keberadaan suatu spesies. Metode ini biasanya digunakan untuk mendeteksi mamalia arboreal secara umum dan beberapa jenis mamalia terrestrial berukuran sedang hingga besar.
+
+Jejak satwa yang ditinggalkan oleh mamalia biasanya lebih mudah dideteksi pada lokasi spesifik. Tapak, seringkali mudah ditemukan di tanah yang berlumpur, seperti kubangan atau dekat sungai tempatnya berhenti untuk minum. Cakaran, dapat ditemukan pada batang pohon hidup maupun yang sudah mati. Aroma khas, biasanya tercium berasal dari air seni yang jatuh ke pepohonan, misalnya aroma pandan sebagai indikasi adanya musang. Sarang, yang dibuat oleh mamalia biasanya berukuran besar dan terletak pada cabang-cabang atau kanopi pohon, misalnya sarang orangutan. Beberapa panduan dapat dijadikan bacaan awal untuk referensi identifikasi jejak satwa liar, seperti Strien (1983) untuk identifikasi tapak mamalia, Chame (2003) untuk morfologi feses dan Atmoko & Rifqi (2012) untuk bentuk dan contoh sarang orangutan.
+
+Teknik mengidentifikasi satwa dari jejak yang ditinggalkan perlu dilatih secara berkala bersama surveior yang sudah berpengalaman. Menggunakan orang lokal yang biasa berburu atau secara rutin menjelajah hutan juga dapat sangat membantu dalam mengenali jejak dan suara satwa. kemampuan membuat catatan lapangan saat menemukan jejak sangat diperlukan untuk bisa mendokumentasikan dengan baik setiap temuan dan menjadi pembelajaran bersama bagi para surveior di kemudian hari.
+
+**Cara Pelaksanaan:**
+
+1.	Pengamatan di transek garis dilakukan pada pagi hari pukul 06:00 dan berjaringn secara perlahan hingga ke ujung transek sejauh 2000 m, kemudian melakukan pengamatan  lagi pada malam hari. Pengamatan malam dapat dimulai pada pukul 16:00 jika bertujuan untuk sambil memasang perangkap, atau jam 19:00 jika hanya melakukan transek garis.
+2.	Berjaringn secara perlahan dan konsisten, serta usahakan sesunyi mungkin sambil memperhatikan keberadaan satwa liar.
+3.	Pengamat utama harus membagi tim untuk personil yang khusus mencari satwa secara langsung di tajuk-tajuk pohon untuk mendeteksi primata dan satwa arboreal lainnya. Personil ini harus selalu berjaringn sepanjang jalur utama transek dan berada di barisan paling depan.
+4.	Personil lainnya ditugaskan untuk mencari jejak satwa di lantai hutan dan batang pohon. Personil ini dianjurkan untuk menjelajahi area disekitar jalur transek bila memungkinkan.
+5.	Apabila melihat satwa secara langsung, usahakan catat jarak perpendikular satwa tersebut dari jalur transek (Gambar \@ref(fig:figppd)), kemudian catat temuan tersebut di lembar data mamalia (Gambar \@ref(fig:ldmtg)). Apabila kondisi memungkinkan, berhenti sejenak untuk dapat mengambil foto satwa tersebut.
+6.	Apabila menemukan jejak satwa berupa tapak, kotoran, cakaran dan jejak visual lainnya catat di lembar data dan foto temuan tersebut menggunakan ukuran pembanding (Gambar \@ref(fig:pugm)).
+7.	Apabila tim mendengar suara mamalia yang belum dikenali atau diragukan spesiesnya, usahakan berhenti sejenak untuk merekam suara tersebut supaya dapat diidentifikasi lebih lanjut.
+8.	Pastikan seluruh pencatat temuan sesuai dengan lembar data mamalia
+
+```{r figppd, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi jarak perpendikular terhadap transek'}
+knitr::include_graphics("images/ppd_ilustration.jpg")
+```
+
+```{r pugm, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pengambilan gambar jejak dengan ukuran pembanding (sumber: doi:10.1371/journal.pone.0172065.g003 )'}
+knitr::include_graphics("images/pugmark.png")
+```
+
+Pada penerapannya, pengamatan langsung seringkali dikombinasikan dengan metode eksplorasi, yang tidak dibatasi oleh jalur transek. Seperti perjaringnan menuju kamp atau perjaringnan antar transek. Pengamat ini dilakukan dengan mencari mamalia secara intuitif, seperti memeriksa kedalam lubang kayu mati untuk melihat kelelawar, memeriksa sempadan sungai untuk melihat jejak kotoran berang-berang dan lainnya. Setiap temuan juga dapat dimasukan ke dalam lembar data sebagai pelengkap informasi keanekaragaman spesies dalam suatu areal kajian.
+
+#### _Live trap_{-}
+Perangkap ini digunakan untuk menangkap mamalia kecil (cth; tikus, bajing, tupai), disebut live trap karena satwa yang terangkap biasanya dilepaskan kembali. Di Indonesia, umumnya ada dua versi yaitu, perangkap kasmin yang paling umum didapatkan (Gambar \@ref(fig:lvtrap) (a)), dan perangkap sherman (Gambar \@ref(fig:lvtrap) (b)). Kedua perangkap tersebut harus dimodifikasi supaya dapat dilipat dan mudah dibawa dengan ukuran sekitar 13 x 26 x 13 cm. Pada beberapa penelitan, perangkap ini juga bisa dimodifikasi untuk dipasang di batang pohon (Gambar \@ref(fig:stot)).
+
+```{r lvtrap, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='(a) perangkap kasmin (b) perangkap sherman (sumber; shermantraps.com)'}
+knitr::include_graphics("images/livetrap.jpg")
+```
+
+```{r stot, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Perangkap sherman yang dipasang diatas pohon (sumber; Díaz-N. et al., 2011)'}
+knitr::include_graphics("images/stontrees.png")
+```
+
+**Cara Pelaksanaan :**
+
+1.	Sebelum dibawa ke area survei, perangkap harus disterilkan dulu dengan dicuci atau di rendam beberapa saat dengan air panas untuk menghilangkan bau dari pemakaian sebelumnya.
+2.	Pastikan seluruh mekanisme perangkap dalam keadaan baik dengan memicu pelatuk tempat umpan serta penutup perangkap dapat menutup dengan utuh.
+3.	Pada saat di area survei, letakan perangkap di tempat-tempat yang diduga menjadi tempat tinggal atau jalur yang dilewat mamalia kecil, seperti di dekat lubang yang berada di tanah, pohon mati berlubang, di bawah pohon, bekas makan dan lainnya. Perangkap dapat dibawa dan dipasang saat melakukan pengamatan pada transek di pagi atau di malam hari.
+4.	Kamuflasikan perangkap dengan seresah dan pasang sekokoh mungkin sejajar dengan permukaan tanah supaya hewan dapat berjaringn secara alami kedalam perangkap lalu tandai lokasi pengamatan dengan pita atau label berwarna terang di ranting atau kayu sejajar dengan mata supaya mudah ditemukan saat pengecekan atau pengambilan.
+5.	Masukan umpan ke dalam perangkap. Umpan yang digunakan bervariasi, mulai dari singkong atau kentang yang diolesi selai kacang, ikan asin yang sedikit dibakar, potongan ikan atau daging, bahkan ada juga yang menaruh jangkring atau belalang didalam kantung kain. Pada dasarnya dibutuhkan suatu umpan yang dapat mengeluarkan aroma, atau suara yang dapat memancing tikus mendatangi perangkap.
+6.	Catat lokasi perangkap dan umpan yang digunakan ke dalam lembar data perangkap (Gambar \@ref(fig:ldmpk))
+7.	Perangkap dipasang minimal 1x24 jam untuk kemudian dievaluasi untuk tetap berada dilokasi yang sama atau dipindahkan. Namun setiap perangkap wajib diperiksa pada pagi dan malam hari. Pada saat pengecekan, usahakan ganti umpan jika kondisinya sudah tidak bagus.
+8.	Bila ada satwa yang tertangkap, keluarkan menggunakan sarung tangan yang tebal, lalu masukan ke dalam kantong kain untuk melakukan pengukuran bagian tubuh di kamp. Bagian tubuh yang biasa diukur adalah panjang tubuh (HB), panjang kaki belakang (HF) dan panjang ekor (T) (Gambar \@ref(fig:mfsm)). Jika sudah selesai diidentifikasi dan difoto, maka lepaskan kembali hewan di tempat tertangkap.
+
+```{r mfsm, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pengukuran bagian tubuh untuk mamalia kecil'}
+knitr::include_graphics("images/mfm_ilustration.jpg")
+```
+
+#### Jaring kabut dan perangkap harpa {-}
+Perangkap jaring kabut dan harpa dapat digunakan untuk menangkap kelelawar, kedua perangkap tersebut dapa digunakan bersama-sama atau sendiri-sendiri. Pada dasarnya perangkap jaring kabur lebih efektif untuk menangkap kelelawar dalam kelompok Megachiroptera atau kelelawar pemakan buah, sedangkan perangkap harpa untuk menangkap kelompok Microchiroptera atau kelelawar pemakan serangga.
+
+**Jaring kabut:**
+
+* Jaring kabut dipasang sepanjang jalur transek yang diduga menjadi perlintasan keleawar seperti tepi hutan, pintu hutan, melintangi sungai, punggungan jalur dan daerah terbuka. Pemasangan dapa juga mempertimbangkan area dengan pepohonan yang sedang berbuah dan berbunga (Gambar \@ref(fig:ldmp))
+* Jaring kabut idealnya dipasang pada sore hari sebelum matahari terbenam.
+* Jaring kabut biasanya dipasang menggunakan ranting atau batang kayu pada jarak 0.5 – 3-meter dari permukaan tanah. Pemasangan jaring kabut harus longgar pada setiap segmen, supaya kelelawar tidak terpantul keluar (Gambar \@ref(fig:mistnet)C)
+* Setelah jaring kabut terpasang, catat lokasi pemasangan kedalam lembar data (Gambar \@ref(fig:ldmp)). Periksa kembali perangkap pada malam hari saat melakukan pengamatan malam hingga maksimal sampai jam 24:00. Apabila terdapat lebih dari 10 individu, perangkap dapat ditutup, namun jika kurang dari itu perangkap dapat dibiarkan terpasang sampai pagi. 
+* Perangkap yang dibiarkan terpasang sampai pagi di evaluasi untuk tetap dipertahankan atau dipindahkan ke lokasi yang lain. Apabila perangkap ingin dilanjutkan untuk malam berikutnya, tutup perangkap dengan menggulung bagian tengahnya supaya tidak ada burung yang terjebak.
+* Untuk melepaskan kelelawar yang terperangkap, periksa dulu arah masuknya kelelawar pada jaring kabut
+* Kendalikan terlebih dahulu kepalanya (bila terlalu sulit, bisa menggunakan kayu untuk gumpalan kain untuk mengalihkan perhatian), setelah itu pegang bagian badannya, lalu keluarkan mulai dari bagian kaki, setelah itu sayap dan kepala.
+
+```{r mistnet, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pemasangan jaring kabut'}
+knitr::include_graphics("images/mistnetuses.png")
+```
+
+**Perangkap harpa:**
+
+* Perangkap harpa dipasang pada jalur transek, dekat sungai, mulut gua, daerah ekoton atau pinggiran hutan.
+* Pemasangan dilakukan sebelum matahari terbenam, sekitar jam 16:00 – 17:00, sesuaikan lama pemasangan dengan waktu pemasangan.
+* Tutup bagian kiri, kanan dan atasnya perangkap harpa dengan menggunakan tumbuhan disekitar untuk menghindari kelelawar melalui bagian terbuka
+* Tutup bagian kiri, kanan dan atasnya kantung harpa menggunakan daun, karena beberapa jenis kelelawar mampu memanjat keluar melalui bagian tersebut. Setelah terpasang dengan sempurna, catat lokasi pemasangan kedalam lembar data (Gambar \@ref(fig:ldmp)).
+* Perangkap harpa dapat ditinggal hingga pagi hari untuk memeriksa kelelawar yang tertangkap kemudian dibongkar dan dipindahkan ke lokasi lainnya.
+
+**Pencatatan kelelawar:**
+
+Kelelawar yang tertangkap baik dari dari jaring kabut dan perangkap harpa dapat disimpan dulu ke dalam kantong kain untuk dilakukan identifikasi, pengambilan foto dan pengukuran tubuh (Gambar \@ref(fig:kelmor)) di kamp. Bagian tubuh yang diukur adalah panjang tubuh (HB), panjang lengan depan (FA), panjang kaki belakang (HF), panjang ekor (T), panjang telinga (E) dan tragus (Tr) bila ada. Setelah selesai, lepaskan kembali kelelawar di lokasi tertangkap pada malam atau pagi hari. 
+
+```{r kelmor, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko & Kruskop, 2003)'}
+knitr::include_graphics("images/kfm_ilustration.jpg")
+```
 
 ## Vegetasi {-}
 Secara umum, survei vegetasi dan pengukuran biomassa yang dilakukan FFI`s IP bertujuan untuk menggambarkan kondisi hutan melalui analisis vegetasi (jenis tumbuhan dominan, kerapatan pohon, tutupan kanopi pohon, dsb) serta potensi cadangan karbon yang terkandung di hutan tersebut (karbon atas permukaan, bawah permukaan, serasah, dan pohon mati). Analisis vegetasi biasanya digunakan untuk menggambarkan struktur dan komposisi dari vegetasi suatu habitat. Selain itu, sekaligus juga dapat digunakan untuk inventarisasi biodiversitas floristik suatu area.
@@ -240,6 +344,7 @@ Table: (\#tab:tabpv) Peralatan yang dibutuhkan tim vegetasi
 | Alat Tulis (Pensil, Spidol marker, papan dada) | Pencatatan data dan penandaan | Kuat, tidak mudah luntur |
 
 ### Protokol Pengamatan{-}
+Survei vegetasi dilakukan dengan metode petak persegi berukuran 125 x 20 m merujuk pada SNI 7724:2011  dan P.33/Menhut-II/2009. Petak diletakkan pada garis transek dengan interval antar petak 500 m penelitian yang telah ditetapkan. Setiap petak terdiri dari tiga subpetak dengan pembagian kategori kelas pohon yang berbeda (Tabel \@ref(tab:tabpvil)). Penempatan petak persegi terhadap transek diupayakan berseling kanan dan kiri per jarak 500 m antar titik awal petak. Petak pertama ditempatkan di sebelah kanan jalur transek. Penempatan sub-petak B dan C adalah di dalam dan sebelah awal dari petak A, kemudian sub-petak C berada di dalam sub-petak B pada sisi yang menjauh garis transek. Ilustrasi penempatan petak dan pembagian kelas sub-petak dapat dilihat pada gambar Gambar \@ref(fig:figpv).
 
 Table: (\#tab:tabpvil) Petak dan anak-petak persegi untuk tiap kategori vegetasi.
 
@@ -253,13 +358,99 @@ Table: (\#tab:tabpvil) Petak dan anak-petak persegi untuk tiap kategori vegetasi
 knitr::include_graphics("images/pv_ilustration.jpg")
 ```
 
-Table: (\#tab:tabpvil) Teknik-teknik pengukuran diameter batang dengan kondisi khusus
+Alur kerja survei di lapangan untuk vegetasi dan biomassa pohon adalah sebagai berikut:
+
+```{r figav, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Diagram alur kerja survei vegetasi'}
+knitr::include_graphics("images/av_ilustration.jpg")
+```
+
+Rincian prosedur untuk setiap langkah alur di atas dijelaskan di bawah ini.
+
+#### Penentuan titik petak{-}
+Alur pengerjaan pertama dari survey botani adalah penentuan letak petak persegi. Idealnya, dan harus diupayakan, petak persegi ditempatkan tepat di titik-titik yang telah ditentukan (Gambar \@ref(fig:figpv)). Namun kondisi aktual di lapangan kadang mendapati area yang tidak memungkinkan untuk membuat petak di titik tersebut, diantaranya medan yang sangat terjal sehingga membahayakan nyawa saat pengerjaan. 
+
+Langkah pengerjaan penentuan titik ini adalah sebagai berikut: 
+
+* Ketika tiba di titik yang ditetapkan, amati kondisi dimana petak akan dibuat. 
+* Tentukan skenario yang akan digunakan, yaitu: 
+* skenario A: bila kondisi memungkinkan, buat petak tepat pada titik yang telah ditetapkan.
+* skenario B: bila kondisi kurang memungkinkan terutama karena kondisi kontur terlalu terjal, maka pindahkan petak ke area yang cukup aman namun tetap pada garis transek. 
+* Ketika letak petak sudah ditetapkan, rekam koordinat geografis petak menggunakan GPS tepat di titik awal atau titik petak 0,0, kemudian beri nama sesuai kode petak (plot ID). 
+
+**Hal yang perlu diperhatikan:**
+
+Penentuan titik petak ini merupakan tanggung jawab dari surveior utama/ketua tim. Bila terjadi pemindahan titik petak harap catat pemindahannya, derajat arah panjang dan lebar petak, serta alasan pemindahan tersebut. Kondisi-kondisi yang memungkinkan untuk pemindahan letak petak diantaranya: kontur terlalu terjal/curam, dan terdapat sungai/danau tepat di titik awal atau di tengah petak yang dapat membiaskan luas petak secara signifikan. Untuk survey keanekaragaman, bila petak yang ditentukan berada pada area terbuka/terdegradasi, maka penempatan petak tetap sesuai dengan titik yang telah ditetapkan.
+
+#### Pembuatan petak persegi{-}
+Ukuran dan dimensi petak merupakan bagian penting dari rangkaian survey botani vegetasi dan biomassa pohon. Dimensi dan ukuran yang tidak sempurna akan menghasilkan bias terhadap data. Perlu diperhatikan baik-baik bahwa ukuran harus tepat menyesuaikan kontur permukaan tanah. Dalam hal ini, pembuatan petak dapat dilakukan dengan dua cara berdasarkan kondisi konturnya. 
+
+* **Kontur tanah cenderung rata.** Bila kontur permukaan tanah dimana petak akan dibuat cenderung rata, maka pembuatan petak dapat dilakukan dengan pembuatan batas-batas petak secara langsung sesuai Gambar \@ref(fig:figpv) di atas.
+* **Kontur permukaan petak bergelombang / tidak rata.** Kontur permukaan yang tidak rata, umumnya di area berbukit, akan membuat bias dimensi dan ukuran sehingga luasan petak akan berubah. Petak tidak akan berbentuk persegi secara sempurna karena terpengaruh oleh perbedaan kontur antar batas petak. Untuk menyiasati hal ini, maka pembuatan petak dilakukan dengan teknik tulang ikan. Petak ini dibuat dengan terlebih dahulu membuat garis tengah petak, lalu mengukur batas-batas kiri dan kanan petak masing-masing sejauh 10 meter dari garis tengah. Dengan demikian, meski bentuk petak tidak persegi sempurna, namun ukuran dan luas petak tidak akan berubah. Bentuk dan dimensi petak yang akan dibuat idealnya seperti pada Gambar \@ref(fig:figtiv)
+
+```{r figtiv, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Bentuk dan ukuran petak dan sub-petak dengan teknik tulang ikan'}
+knitr::include_graphics("images/tiv_ilustration.jpg")
+```
+
+Idealnya arah panjang petak menyesuaikan arah transek yaitu dari utara ke selatan atau sebaliknya. Pembuatan petak tulang ikan yang dijelaskan di bawah ini mengambil asumsi arah petak mengarah ke utara dan lebar ke arah timur. Langkah demi langkah pembuatan petak tulang ikan dijelaskan sebagai berikut: 
+
+a)	Buat tanda patok di titik (0,0) dan beri tanda fisik menggunakan flagging tape secukupnya, kemudian tanam besi dalam tanah di titik ini,
+
+b)	Dari titik (0,0) tembak arah 90°-garis panjang (ke arah lebar) menggunakan kompas, kemudian tarik meteran ukur sejauh 10 meter ke arah tersebut, beri tanda dengan flagging tape dan beri nama 10,0,
+
+c)	dari titik (10,0) tembak arah 0° / ke arah panjang p etak, lalu tarik garis 10 meter ke arah tersebut dan beri patok, titik ini adalah (10,10), 
+
+d)	dari titik (10,10) buat garis ke samping kanan dan kiri tegak lurus garis, masing-masing 10 meter dan beri tanda flagging tape,
+
+e)	dari titik (10,10) buat garis ke arah panjang sejauh 10 meter (10,20) lalu lakukan langkah yang sama seperti poin ‘c’ dan ‘d’,
+
+f)	lakukan pengulangan seterusnya ke arah panjang petak hingga meter ke 120 atau titik (10,120),
+
+g)	dari titik (10,120) buat garis ke arah panjang sejauh 5 meter (10,125), tandai, kemudian lakukan langkah sama seperti tahap ‘d’,
+
+h)	Petak telah selesai dibuat dan pastikan bahwa besi telah tertanam di titik 0,0; 10,0 ; 20,0; 10,10; dan 20,10.
+
+
+**Keterangan penting:**
+
+Arah panjang transek di lapangan tidak selalu mengarah ke utara, pada kondisi tertentu arah transek bisa menyamping atau menyerong dari arah utara. Kunci ketepatan pembuatan batas-batas petak adalah ketelitian dalam membaca kompas, upayakan agar pembaca kompas teliti betul. Setiap survey yang telah dilakukan, besar kemungkinan akan dilakukan pemantauan, pengukuran ulang, atau verifikasi audit petak, pendeteksian terhadap titik awal petak menjadi sangat penting untuk memudahkan ditemukannya kembali petak-petak yang telah dibuat. Untuk menyiasati ini, tanda fisik dengan flagging tape dan besi yang ditanam jangan sampai hilang.
+
+#### Identifikasi rona lingkungan{-}
+Identifikasi lingkungan dilakukan untuk melihat gambaran rona hutan di dalam dan sekitar petak serta mengamati daya dukung terhadap vegetasi. Prosedur yang perlu dilakukan diantaranya:
+
+* Catat beragam informasi lingkungan mencakup: tipe hutan, persentase tutupan bawah, hidrologi (ada/tidak sumber air dan berapa jauh dari petak), dan terrain system (tipe tanah, kemiringan, rawa, terendam permanen/temporer, dll.)
+* Informasi lain yang penting atau sekiranya berpengaruh terhadap dinamika ekosistem hutan dicatat pula, seperti adanya gangguan pembalakan, bekas kebakaran, dan lain-lain.
+* Ambil gambar dari rona lingkungan menggunakan kamera digital, seminimal nya foto empat arah (utara, timur, selatan, barat) di titik 0,0 (Gambar \@ref(fig:figrlv)). Kondisi rona lingkungan yang menarik diambil pula gambarnya seperti bukaan di dalam hutan, bekas tebangan pohon, dan lain-lain.
+
+```{r figrlv, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Contoh gambar foto rona lingkungan'}
+knitr::include_graphics("images/rlv_ilustration.jpg")
+```
+
+#### Pengukuran tutupan tajuk{-}
+Tutupan kanopi sangat erat kaitannya dengan dinamika ekosistem di bawahnya seperti menyediakan iklim mikro bagi vegetasi dan habitat beragam satwa. Untuk mengukur tutupan tajuk, ukur persentase tutupan kanopi menggunakan densiometer atau kamera lensa _fisheye_. Lakukan pengukuran di titik (10,0); (10,50); dan (10,100). Pendugaan tutupan tajuk seperti pada Gambar \@ref(fig:figpkv)
+
+```{r figpkv, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Contoh pendugaan tutupan tajuk. (Sumber; https://doi.org/10.1016/j.uclim.2019.01.004)'}
+knitr::include_graphics("images/pkv_ilustration.jpg")
+```
+
+#### Pengukuran tegakan pohon{-}
+Setelah petak selesai dibuat maka pengukuran tiap tegakan dapat dimulai. Pengukuran tiap tegakan mencakup diameter, tinggi, koleksi dan foto spesimen, hingga penandaan tegakan. Tegakan pohon yang diukur sesuai dengan kelas diameter dan anak-petaknya.
+
+##### Pengukuran diameter pohon {-}
+Diameter pohon merupakan data penting untuk estimasi biomassa dan penguasaan lahan oleh jenis. Pengukuran diameter idealnya dilakukan pada batang utama pohon menggunakan diameter tape (phi-band) di ketinggian setinggi dada (_diameter breast height_ – dbh). Untuk konsistensi titik pengukuran maka tinggi dbh ini ditetapkan 1,3m dari permukaan tanah. Untuk lebih memudahkan pengerjaan, buat tongkat kayu sepanjang 1,3m terlebih dahulu untuk mengukur tinggi 1,3m ini. Pengukuran tersebut dilakukan hanya bila bentuk batang di titik 1,3m tersebut bulat sempurna.
+
+```{r figdbhm, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Cara mengukur diameter setinggi dada secara langsung. (Sumber: http://www.epa.gov)'}
+knitr::include_graphics("images/dbhm_ilustration.jpg")
+```
+
+Dimensi bentuk pohon seringkali tidak membulat sempurna atau memiliki bentuk khusus seperti banir tinggi atau akar tunjang. Untuk pohon-pohon dengan kondisi khusus tersebut, pengukuran dilakukan dengan ketentuan seperti pada ilustrasi tabel \@ref(tab:bkk) di bawah ini.
+
+Table: (\#tab:bkk) Teknik-teknik pengukuran diameter batang dengan kondisi khusus
 
 | Keterangan | Ilustrasi |
 |:----|:----|
 | **Pohon di tanah yang miring.** Pengukuran diameter pohon di tanah yang miring dimulai dengan mengukur tinggi 1,3m dari permukaan tanah yang paling tinggi menyentuh dasar pohon. DBH dihitung pada bagian batang di titik 1,3m tersebut | ![](images/vtb1.jpg) |
 | **Pohon cacat (_deform_) di titik 1,3 m.** Jika di titik 1,3m dari permukaan tanah, batang tidak bulat sempurna/cacat. maka titik pengukuran adalah pada 0,3m di atas dari ujung bagian yang cacat tersebut | ![](images/vtb2.jpg) |
-| **Pohon miring (leaning).** Pengukuran pada pohon miring dilakukan dengan mengukur 1,3m dari tanah pada sisi arah miring pohon tersebut/sisi yang terdekat dengan tanah | ![](images/vtb3.jpg) |
+| **Pohon miring (_leaning_).** Pengukuran pada pohon miring dilakukan dengan mengukur 1,3m dari tanah pada sisi arah miring pohon tersebut/sisi yang terdekat dengan tanah | ![](images/vtb3.jpg) |
 | **Pohon berbanir atau berakar tunjang.** jika tinggi banir atau akar tunjang di bawah 1,3m, maka pengukuran tetap dilakukan pada tinggi 1,3m | ![](images/vtb4.jpg) |
 | Jika batas tinggi banir atau akar tunjang di atas 1,3 m dari permukaan tanah, maka pengukuran dilakukan di titik 0,3 m dari batas banir/akar tunjang | ![](images/vtb5.jpg) |
 | Bila batas banir terlalu tinggi sehingga tidak memungkinkan untuk dipanjat, maka lakukan teknik dua tiang sesuai gambar di samping. Tiang didapat dari tegakan tingkat tiang lurus yang berasal dari luar petak dengan tinggi yang sesuai. Dua tiang disandingkan berjajar mengapit batang pada titik ukur diameter, orang ketiga memastikan bahwa tiang telah lurus, sejajar dan tepat di titik diameter, kemudian jarak antar tiang diukur dan dianggap sebagai diameter batang | ![](images/vtb6.jpg) |
@@ -267,6 +458,45 @@ Table: (\#tab:tabpvil) Teknik-teknik pengukuran diameter batang dengan kondisi k
 | **Pohon tumbang.** Pohon yang tumbang namun masih tumbuh dedaun hidup dianggap sebagai pohon hidup. Pengukuran diameter pohon ini dilakukan pada bagian batang sejauh 1,3m dari batas akar dan batang | ![](images/vtb8.jpg) |
 | **Pohon dengan liana.** Jika liana tumbuh pada titik pengukuran, jangan potong liana tersebut. Jika memungkinkan, Tarik liana menjauhi batang dan sematkan meter dbh tape di belakang liana sehingga dbh tape dapat melingkari batang dengan sempurna. Jika tidak memungkinkan, maka dengan bantuan pisau atau parang, buat dbh tape menyisip di antara liana sehingga dapat melingkari batang. Atau, jika liana sudah terlampau besar atau sudah sangat menempel pada batang, maka gunakan sisi belakang dari dbh tape (atau meteran ukur) untuk mengukur diameter batang secara visual | ![](images/vtb9.jpg) |
 
+##### Pengukuran tinggi pohon {-}
+Tinggi pohon yang diukur adalah tinggi bebas cabang (TBC) dan tinggi total (TT) menggunakan laser distometer/distancemeter. Konsep penggunaan distometer adalah merekam secara langsung jarak laser dari alat ke target yang dituju. Cara penggunaan distometer adalah arahkan laser dari dasar pohon secara langsung ke arah pucuk pohon (untuk mengukur tinggi total) atau ke arah cabang pertama (untuk mengukur tinggi bebas cabang) kemudian rekam jaraknya. Cara tersebut dapat digunakan bila kondisi medan memungkinkan untuk laser mencapai target tanpa terhalang oleh apapun sehingga tinggi dapat langsung direkam. Pada kondisi sebenarnya, kondisi tersebut hampir tidak memungkinkan, karena banyaknya penghalang di dalam hutan sehingga laser tidak dapat mencapai target. Cara yang dapat digunakan adalah menggunakan konsep pytagoras, dengan cara mengambil jarak dari pohon target sejauh mana laser dapat mencapai target. Kemudian setting distometer ke mode pengukuran pitagoras. Dari jarak tersebut, arahkan pointer laser ke pohon target pada tiga arah: cabang pohon, searah tinggi distometer, dan dasar pohon seperti terlihat pada gambar \@ref(fig:figdst), kemudian rekam. Distometer secara otomatis akan menghitung tinggi pohon secara langsung.
+
+```{r figdst, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Alat distometer dan konsep pengukuran tinggi pohon. (Sumber:theoriginallaserdistancemeter.co.uk)'}
+knitr::include_graphics("images/dst_ilustration.jpg")
+```
+
+**Hal yang harus diperhatikan:**
+
+Pengukuran langsung terhadap target tinggi total besar kemungkinan sulit dilakukan karena kendala banyaknya penghalang di sekitar target. Dalam kondisi demikian, penggunaan laser distometer dimaksudkan untuk meminimalisir margin eror dalam pengukuran tinggi secara langsung. Arahkan target laser ke bagian yang sedekat mungkin dengan puncak target, kemudian dari jarak tersebut tambahkan estimasi tinggi hingga ke puncak. Estimasi yang dibuat tersebut diasumsikan sebagai margin eror dari tinggi sebenarnya.
+
+##### Foto dan koleksi spesimen {-}
+Identifikasi di lapangan sering kali sangat sulit dilakukan, terlebih bila jenis tersebut belum pernah dijumpai sebelumnya. Dalam pencatatan, nama pohon teridentifikasi di lapangan bisa berupa nama lokal dan/atau tingkat taksa yang paling mendekati, seperti misal Fabaceae, Shorea sp. Untuk identifikasi lebih lanjut, spesimen setiap jenis harus diambil.
+
+Pengambilan spesimen sedapat mungkin lengkap mewakili karakter penting untuk indetifikasi. Karakter tersebut diantaranya daun dengan ranting-rantingnya, bunga dan buah, serta karakter khusus lainnya seperti damar. Upayakan untuk sedapat mungkin mengoleksi spesimen tersebut untuk dipreparasi atau herbaria. Jika spesimen karakter-karakter tersebut sangat sulit untuk dicuplik, maka seminimalnya ambil serasah daunnya paling sedikit 3 lembar per jenis kemudian beri nama kode pohon dengan spidol marker. Teknik preparasi spesimen herbaria dapat dilihat pada ~~lampiran xx~~. Catat ciri-ciri khas dari jenis di bagian keterangan pada lembar data, seperti berdamar susu, berduri panjang, dll. 
+
+Selain pengambilan spesimen, pengambilan gambar dari karakter tumbuhan pun diperlukan untuk melengkapi dan membantu proses identifikasi. Teknik pengambilan gambar karakter tersebut sebisa mungkin mewakili setiap karakter yang dibutuhkan untuk proses identifikasi. Karakter yang wajib diambil gambarnya mencakup: daun dan struktur percabangannya, batang lengkap dengan takikan batangnya, karakter generatif (bila dijumpai), serta karakter khusus seperti damar, getah, dan duri. Contoh pengambilan gambar karakter tersebut dapat dilihat pada tabel \@ref(tab:tabgkj)
+
+**Hal yang perlu diperhatikan:**
+
+Daun serasah yang dicuplik harus tepat berasal dari pohon jenis yang dimaksud dan tidak dalam kondisi rusak/terdekomposisi. Gunakan teropong atau bantuan lensa zoom dari kamera untuk memastikan bentuk daun yang masih berada di atas pohon.
 
 
+
+Table: (\#tab:tabgkj) Contoh-contoh pengambilan gambar karakter jenis
+
+| Keterangan | Ilustrasi |
+|:----|:----|
+| **Batang utama.** Informasi yang diharapkan: warna batang, tekstur permukaan kulit, ada tidaknya banir/akar tanjung.  | ![](images/gkj1.jpg) |
+| **Daun hidup.** setidaknya harus mencakup informasi percabangan, bentuk, warna, dan tipe formasi duduk daun | ![](images/gkj2.jpg) |
+| **Takikan batang dan daun serasah.** Untuk mengidentifikasi dari kulit luar, kulit dalam, urat kayu, dan ciri khusus seperti getah. Informasi mengenai warna masing-masing karakter sangat penting untuk menentukan jenis | ![](images/gkj3.jpg) |
+| **Organ generatif.** Bila dijumpai bunga dan atau buah dari jenis, ambil gambarnya setidaknya gambar utuh. Sertakan pembanding saat pengambilan gambar | ![](images/gkj4.jpg) |
+| **Ciri - ciri khusus.** Bila jenis memiliki ciri khusus seperti getah, damar, duri, dan lain sebagainya, ambil gambar dari ciri khusus tersebut | ![](images/gkj5.jpg) |
+
+
+##### Penandaan pohon {-}
+Penandaan pohon dilakukan dengan maksud selain memberikan ID setiap tegakan yang diukur, juga untuk memudahkan pencarian dalam pengukuran ulang atau verifikasi di masa mendatang. Penandaan dilakukan dengan memasang plat alumunium berukuran kurang lebih 6 x 3 cm yang memuat setidaknya informasi kode pohon. Pemasangan alumunium dilakukan dengan menancapkan plat pada pohon dengan paku. Contoh pemasangan dapat dilihat pada gambar \@ref(fig:figtag).
+
+```{r figtag, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Contoh pemasangan plat tagging'}
+knitr::include_graphics("images/tagging.jpg")
+```
 
