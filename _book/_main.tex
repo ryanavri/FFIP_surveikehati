@@ -33,6 +33,46 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -62,6 +102,14 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+\usepackage{fontspec}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{hhline}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -158,7 +206,72 @@ Perhatikan penggunaan pisau tebas. Penggunaan pisau tebas saat membuka jalur ser
 \chapter*{Rancangan Survei}\label{rancangan-survei}}
 \addcontentsline{toc}{chapter}{Rancangan Survei}
 
-Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik cuplik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{merge\_v}\NormalTok{(myft, }\AttributeTok{j =} \SpecialCharTok{\textasciitilde{}}\NormalTok{ letters1 }\SpecialCharTok{+}\NormalTok{ letters2 )}
+\end{Highlighting}
+\end{Shaded}
+
+\providecommand{\docline}[3]{\noalign{\global\setlength{\arrayrulewidth}{#1}}\arrayrulecolor[HTML]{#2}\cline{#3}}
+
+\setlength{\tabcolsep}{2pt}
+
+\renewcommand*{\arraystretch}{1.5}
+
+\begin{longtable}[c]{|p{0.75in}|p{0.75in}|p{0.75in}}
+
+\caption{airquality dataset
+}\label{tab:tab1}\\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{letters1}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{letters2}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{number}}}}} \\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+\endfirsthead
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{letters1}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{letters2}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{\textbf{number}}}}} \\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}\endhead
+
+
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{a}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{d}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{1}}}} \\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{e}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{2}}}} \\
+
+\hhline{~>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\multirow[c]{-2}{*}{\parbox{0.75in}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{b}}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{3}}}} \\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-~>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+
+
+\multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{c}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedright}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}}{\multirow[c]{-2}{*}{\parbox{0.75in}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{b}}}}}} & \multicolumn{1}{!{\color[HTML]{666666}\vrule width 1pt}>{\raggedleft}p{\dimexpr 0.75in+0\tabcolsep+0\arrayrulewidth}!{\color[HTML]{666666}\vrule width 1pt}}{\fontsize{11}{11}\selectfont{\textcolor[HTML]{000000}{\global\setmainfont{Arial}{4}}}} \\
+
+\hhline{>{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}->{\arrayrulecolor[HTML]{666666}\global\arrayrulewidth=1pt}-}
+
+
+
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  This is a reference to flextable \ref{tab:tab2}.
+\end{itemize}
 
 \hypertarget{protokol-survei}{%
 \chapter*{Protokol Survei}\label{protokol-survei}}
@@ -538,6 +651,14 @@ Pengamatan pada waktu siang hari dilakukan dengan estimasi waktu pukul 08.00 -- 
 \caption{Pengukuran Snout Vent Length (SVL) dan Tail Length (TL) pada spesimen herpetofauna; A) Katak B) Kadal, Cicak, Biawak C) Ular}\label{fig:figmhf}
 \end{figure}
 
+\hypertarget{foto-dan-koleksi-spesimen}{%
+\subsubsection*{Foto dan koleksi spesimen}\label{foto-dan-koleksi-spesimen}}
+\addcontentsline{toc}{subsubsection}{Foto dan koleksi spesimen}
+
+Foto satwa berfungsi sebagai bukti keberadaan jenis tersebut, dokumentasi dan media identifikasi. Foto satwa terbagi menjadi dua berdasarkan kegunaannya, yaitu foto sebagai \emph{display} dengan menunjukkan momen dan posisi menarik dari satwa tersebut. Kemudian foto sebagai media identifikasi dengan menunjukkan detail dari bagian morfologi satwa (Gambar \ref{fig:spesamf1}). Pengambilan foto dapat dilakukan pada saat menemukan satwa di lokasi/ habitat alaminya, atau dengan menggunakan studio yang dibuat menyerupai habitat alami satwa tersebut. Perlu diperhatiakan dalam pengambilan foto harus memperhatiakan substrat latar belakang yang sesuai dengan habitatnya, kemampuan kamera dalam membuat foto makro dengan kondisi gelap (menggunakan \emph{blitz}), dan pembanding untuk foto identifikasi. Pemilihan kamera yang tepat terutama dengan kemampuan makro tinggi (jarak lensa dengan satwa kurang dari 10 cm), pengaturan ISO tinggi, mode pengambilan foto pada malam hari, dan pengaturan flash (manual) sangat menentukan hasil foto.
+
+Jika jenis yang akan didokumentasikan (foto) merupakan jenis yang terlalu sulit untuk diambil di lokasi terutama untuk foto identifikasi, maka dapat dibuat studio buatan yang menyerupai habitatnya. Studio buatan dapat dibuat dengan serasah daun, batang pohon, batu, dan lain-lain pada suatu ruangan (kotak) yang tertutup. Foto identifikasi biasanya dilakukan pada spesimen yang telah diawetkan (mati), agar terlihat jelas morfologi ataupun anatomi tubuh jenis tersebut (gambar \ref{fig:spesamf1}).
+
 Beberapa hal penting yang perlu diperhatikan dalam melakukan survei Herpetofauna, adalah sebagai berikut:
 
 \begin{itemize}
@@ -692,7 +813,7 @@ Perangkap ini digunakan untuk menangkap mamalia kecil (cth; tikus, bajing, tupai
 
 }
 
-\caption{(a) perangkap kasmin. (b) perangkap Sherman (sumber; shermantraps.com)}\label{fig:lvtrap}
+\caption{(a) perangkap kasmin (b) perangkap sherman (sumber; shermantraps.com)}\label{fig:lvtrap}
 \end{figure}
 
 \begin{figure}
@@ -720,7 +841,7 @@ Perangkap ini digunakan untuk menangkap mamalia kecil (cth; tikus, bajing, tupai
 \item
   Masukan umpan ke dalam perangkap. Umpan yang digunakan bervariasi, mulai dari singkong atau kentang yang diolesi selai kacang, ikan asin yang sedikit dibakar, potongan ikan atau daging, bahkan ada juga yang menaruh jangkring atau belalang didalam kantung kain. Pada dasarnya dibutuhkan suatu umpan yang dapat mengeluarkan aroma, atau suara yang dapat memancing tikus mendatangi perangkap.
 \item
-  Catat lokasi perangkap dan umpan yang digunakan ke dalam lembar data perangkap (Gambar \ref{fig:lmdpk})
+  Catat lokasi perangkap dan umpan yang digunakan ke dalam lembar data perangkap (Gambar \ref{fig:ldmpk})
 \item
   Perangkap dipasang minimal 1x24 jam untuk kemudian dievaluasi untuk tetap berada dilokasi yang sama atau dipindahkan. Namun setiap perangkap wajib diperiksa pada pagi dan malam hari. Pada saat pengecekan, usahakan ganti umpan jika kondisinya sudah tidak bagus.
 \item
@@ -739,6 +860,66 @@ Perangkap ini digunakan untuk menangkap mamalia kecil (cth; tikus, bajing, tupai
 \hypertarget{jaring-kabut-dan-perangkap-harpa}{%
 \subsubsection*{Jaring kabut dan perangkap harpa}\label{jaring-kabut-dan-perangkap-harpa}}
 \addcontentsline{toc}{subsubsection}{Jaring kabut dan perangkap harpa}
+
+Perangkap jaring kabut dan harpa dapat digunakan untuk menangkap kelelawar, kedua perangkap tersebut dapa digunakan bersama-sama atau sendiri-sendiri. Pada dasarnya perangkap jaring kabur lebih efektif untuk menangkap kelelawar dalam kelompok Megachiroptera atau kelelawar pemakan buah, sedangkan perangkap harpa untuk menangkap kelompok Microchiroptera atau kelelawar pemakan serangga.
+
+\textbf{Jaring kabut:}
+
+\begin{itemize}
+\tightlist
+\item
+  Jaring kabut dipasang sepanjang jalur transek yang diduga menjadi perlintasan keleawar seperti tepi hutan, pintu hutan, melintangi sungai, punggungan jalur dan daerah terbuka. Pemasangan dapa juga mempertimbangkan area dengan pepohonan yang sedang berbuah dan berbunga (Gambar \ref{fig:ldmp})
+\item
+  Jaring kabut idealnya dipasang pada sore hari sebelum matahari terbenam.
+\item
+  Jaring kabut biasanya dipasang menggunakan ranting atau batang kayu pada jarak 0.5 -- 3-meter dari permukaan tanah. Pemasangan jaring kabut harus longgar pada setiap segmen, supaya kelelawar tidak terpantul keluar (Gambar \ref{fig:mistnet}C)
+\item
+  Setelah jaring kabut terpasang, catat lokasi pemasangan kedalam lembar data (Gambar \ref{fig:ldmp}). Periksa kembali perangkap pada malam hari saat melakukan pengamatan malam hingga maksimal sampai jam 24:00. Apabila terdapat lebih dari 10 individu, perangkap dapat ditutup, namun jika kurang dari itu perangkap dapat dibiarkan terpasang sampai pagi.
+\item
+  Perangkap yang dibiarkan terpasang sampai pagi di evaluasi untuk tetap dipertahankan atau dipindahkan ke lokasi yang lain. Apabila perangkap ingin dilanjutkan untuk malam berikutnya, tutup perangkap dengan menggulung bagian tengahnya supaya tidak ada burung yang terjebak.
+\item
+  Untuk melepaskan kelelawar yang terperangkap, periksa dulu arah masuknya kelelawar pada jaring kabut
+\item
+  Kendalikan terlebih dahulu kepalanya (bila terlalu sulit, bisa menggunakan kayu untuk gumpalan kain untuk mengalihkan perhatian), setelah itu pegang bagian badannya, lalu keluarkan mulai dari bagian kaki, setelah itu sayap dan kepala.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/mistnetuses} 
+
+}
+
+\caption{Ilustrasi pemasangan jaring kabut; (a) Pintu hutan (b) diatas sungai dan, (c) detil pemasangan jaring kabut yang longgar di setiap segmen (sumber; (Borisenko and Kruskop, 2003))}\label{fig:mistnet}
+\end{figure}
+
+\textbf{Perangkap harpa:}
+
+\begin{itemize}
+\tightlist
+\item
+  Perangkap harpa dipasang pada jalur transek, dekat sungai, mulut gua, daerah ekoton atau pinggiran hutan.
+\item
+  Pemasangan dilakukan sebelum matahari terbenam, sekitar jam 16:00 -- 17:00, sesuaikan lama pemasangan dengan waktu pemasangan.
+\item
+  Tutup bagian kiri, kanan dan atasnya perangkap harpa dengan menggunakan tumbuhan disekitar untuk menghindari kelelawar melalui bagian terbuka
+\item
+  Tutup bagian kiri, kanan dan atasnya kantung harpa menggunakan daun, karena beberapa jenis kelelawar mampu memanjat keluar melalui bagian tersebut. Setelah terpasang dengan sempurna, catat lokasi pemasangan kedalam lembar data (Gambar \ref{fig:ldmp}).
+\item
+  Perangkap harpa dapat ditinggal hingga pagi hari untuk memeriksa kelelawar yang tertangkap kemudian dibongkar dan dipindahkan ke lokasi lainnya.
+\end{itemize}
+
+\textbf{Pencatatan kelelawar:}
+
+Kelelawar yang tertangkap baik dari dari jaring kabut dan perangkap harpa dapat disimpan dulu ke dalam kantong kain untuk dilakukan identifikasi, pengambilan foto dan pengukuran tubuh (Gambar \ref{fig:kelmor}) di kamp. Bagian tubuh yang diukur adalah panjang tubuh (HB), panjang lengan depan (FA), panjang kaki belakang (HF), panjang ekor (T), panjang telinga (E) dan tragus (Tr) bila ada. Setelah selesai, lepaskan kembali kelelawar di lokasi tertangkap pada malam atau pagi hari.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/kfm_ilustration} 
+
+}
+
+\caption{Ilustrasi pengukuran bagian tubuh kelelawar (sumber; Borisenko and Kruskop, 2003)}\label{fig:kelmor}
+\end{figure}
 
 \hypertarget{vegetasi}{%
 \section*{Vegetasi}\label{vegetasi}}
@@ -1086,8 +1267,8 @@ Tinggi pohon yang diukur adalah tinggi bebas cabang (TBC) dan tinggi total (TT) 
 
 Pengukuran langsung terhadap target tinggi total besar kemungkinan sulit dilakukan karena kendala banyaknya penghalang di sekitar target. Dalam kondisi demikian, penggunaan laser distometer dimaksudkan untuk meminimalisir margin eror dalam pengukuran tinggi secara langsung. Arahkan target laser ke bagian yang sedekat mungkin dengan puncak target, kemudian dari jarak tersebut tambahkan estimasi tinggi hingga ke puncak. Estimasi yang dibuat tersebut diasumsikan sebagai margin eror dari tinggi sebenarnya.
 
-\hypertarget{foto-dan-koleksi-spesimen}{%
-\paragraph*{Foto dan koleksi spesimen}\label{foto-dan-koleksi-spesimen}}
+\hypertarget{foto-dan-koleksi-spesimen-1}{%
+\paragraph*{Foto dan koleksi spesimen}\label{foto-dan-koleksi-spesimen-1}}
 \addcontentsline{toc}{paragraph}{Foto dan koleksi spesimen}
 
 Identifikasi di lapangan sering kali sangat sulit dilakukan, terlebih bila jenis tersebut belum pernah dijumpai sebelumnya. Dalam pencatatan, nama pohon teridentifikasi di lapangan bisa berupa nama lokal dan/atau tingkat taksa yang paling mendekati, seperti misal Fabaceae, Shorea sp. Untuk identifikasi lebih lanjut, spesimen setiap jenis harus diambil.
@@ -1458,5 +1639,85 @@ Lembar data ini merupakan bagian kedua dari set lembar data vegetasi untuk menul
 
 \caption{Contoh lembar data vegetasi}\label{fig:ldvm}
 \end{figure}
+
+\hypertarget{lampiran-2.-teknik-preservasi-spesimen}{%
+\chapter*{Lampiran 2. Teknik Preservasi Spesimen}\label{lampiran-2.-teknik-preservasi-spesimen}}
+\addcontentsline{toc}{chapter}{Lampiran 2. Teknik Preservasi Spesimen}
+
+Seringkali spesies yang ditemukan saat pengamatan belum bisa teridentifikasi hingga ke tingkat \emph{species}. Ketika hal ini terjadi, umumnya pengamat harus menangkap jenis tersebut untuk diawetkan sebagai spesimen awetan (\emph{voucher specimens}). Hal ini menjadi penting untuk dilakukan karena: (1) Memastikan identifikasi jenis secara akurat dan, (2) Meningkatkan pemahaman terhadap kemungkinan variasi jenis dari lokasi yang berbeda. Pengawetan spesimen ini juga dapat digunakan dikemudian hari oleh peneliti lain seperti studi DNA, revisi taksonomi dan sebagainya.
+
+Meskipun penting untuk dilakukan, perlu diperhatikan juga mengenai etika dalam pengumpulan jenis. Beberapa kawasan konservasi mungkin membutuhkan legalitas yang harus diurus sebelum dapat membawa spesimen keluar kawasan. Ketika dikawasan non-konservasi pun kita harus sadar terhadap kerentanan spesies tersebut dan dampak yang akan terjadi terhadap pengambilan hewan untuk dijadikan spesimen awetan. Jika anda menangkap dan membunuh banyak hewan untuk alasan penelitian, justru menimbulkan dampak yang negatif terhadap upaya konservasi yang sedang anda upayakan. Oleh karena itu, perijinan untuk pengambilan spesimen dan tempat penyimpanan spesimen (laboratorium zoologi atau herbarium di universitas terdekat) harus didapatkan terlebih dahulu sebelum melakukan kajian, supaya hewan yang sudah ditangkap tidak mati sia-sia dan dapat digunakan sebaik-baiknya untuk penelitian.
+
+\hypertarget{herpetofauna-1}{%
+\section*{Herpetofauna}\label{herpetofauna-1}}
+\addcontentsline{toc}{section}{Herpetofauna}
+
+Data yang diperlukan pada spesimen awetan herpetofauna harus memiliki catatan nama jenis, lokasi pengambilan sampel, tanggal dan waktu, kode sampel, berat, ukuran panjang, dan hal lain yang terkait.
+
+\textbf{Tahapan pengawetan:}
+
+\begin{itemize}
+\tightlist
+\item
+  Untuk keamanan gunakan sarung tangan lateks dan masker saat melakukan kegiatan preservasi.
+\item
+  Lakukan pembiusan dengan menekan kapas yang sebelumnya telah dicelupkan ke cairan MS-222 atau Chlorobutanol pada lubang pernafasan. Saat larutan MS-222 atau Chlorobutanol tidak dapat diperoleh maka dapat diganti dengan larutan alkohol 70\%.
+\item
+  Setelah dipastikan sampel terbius (terlihat lemas), lakukan penyuntikkan alcohol 70\% menggunakan \emph{syringe} pada otak kecil melalui tengkuk.
+\item
+  Lakukan penyuntikan formalin 10\% pada bagian-bagian berdaging, berongga dan organ dalam.
+\item
+  Segera setelah penyuntikkan, letakkan sampel tersebut dalam suatu kotak plastik yang sebelumnya telah dilapisi kain kasa dan dibasahi oleh larutan formalin 10\%.
+\item
+  Atur posisi spesimen dengan posisi menunjukkan morfologi spesimen terlihat untuk memudahkan identifikasi ulang di laboratorium jika dibutuhkan. Misalnya mulut disumpal dengan kapas untuk menunjukkan bagian dalam mulut, jari-jari tungkai dimekarkan untuk melihat selaput (gambar \ref{fig:spesamf1}). Kemudian ikatkan label pada bagian pinggang agar tidak tertukar dengan spesimen lain.
+\item
+  Tutupi spesimen dengan kain yang dibasahi formalin 10\% dan tutup box selama satu sampai dua hari hingga spesimen kaku.
+\item
+  Untuk penyimpanan permanen, spesimen yang telah dipreservasi dalam kotak plastik dikeluarkan dan dibilas dengan air mengalir selama 1 -- 2 jam untuk menghilangkan sisa formalin. Setelah itu dapat dipindahkan ke dalam toples kaca yang berisi alkohol 70\%
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/spesimenafmibi1} 
+
+}
+
+\caption{Foto spesimen Amfibi; bagian lateral (a), bagian dorsal (b), bagian ventral (c).}\label{fig:spesamf1}
+\end{figure}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/spesimenafmibi2} 
+
+}
+
+\caption{Spesimen Amfibi yang telah diatur posisinya dan diberi label spesimen untuk memudahkan identifikasi ulang di laboratorium}\label{fig:spesamf2}
+\end{figure}
+
+\hypertarget{mamalia-1}{%
+\section*{Mamalia}\label{mamalia-1}}
+\addcontentsline{toc}{section}{Mamalia}
+
+Pengawetan satwa mamalia kecil dan kelelawar untuk identifikasi lebih lanjut atau koleksi spesimen adalah sebagai berikut:
+
+\begin{itemize}
+\tightlist
+\item
+  Lakukan pembiusan dengan menekan kapas yang sebelumnya telah dicelupkan ke cairan klorofom atau alkohol 70\%
+\item
+  Setelah dipastikan sampel terbius (terlihat lemas), lakukan penyuntikkan alcohol 70\% menggunakan \emph{syringe} pada otak kecil melalui tengkuk.
+\item
+  Lakukan pengambilan foto sebagai dokumentasi warna asli sebelum diawetkan
+\item
+  Sumbat mulut dengan kapas, supaya bagian mulut dapat diperiksa sebelum kaku dikemudian hari, lalu lakukan penyuntikan formalin 5-10\% pada bagian-bagian berdaging, berongga dan organ dalam.
+\item
+  Letakkan sampel tersebut ke dalam suatu kotak plastik yang sebelumnya telah dilapisi kain kasa dan dibasahi oleh larutan formalin 10\%, kemudian ikatkan label pada bagian kaki agar tidak tertukar dengan spesimen lain
+\item
+  Untuk penyimpanan permanen, spesimen yang telah dipreservasi dalam kotak plastik dikeluarkan dan dibilas dengan air mengalir selama 1 -- 2 jam untuk menghilangkan sisa formalin. Setelah itu dapat dipindahkan ke dalam toples kaca yang berisi alkohol 70\%
+\end{itemize}
+
+\hypertarget{vegetasi-1}{%
+\section*{vegetasi}\label{vegetasi-1}}
+\addcontentsline{toc}{section}{vegetasi}
 
 \end{document}

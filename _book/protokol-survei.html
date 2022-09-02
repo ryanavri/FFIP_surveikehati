@@ -52,8 +52,74 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+<link href="libs/tabwid-1.0.0/scrool.css" rel="stylesheet" />
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -118,6 +184,12 @@
 <li class="chapter" data-level="" data-path="lampiran-1.html"><a href="lampiran-1.html#lembar-data-mamalia"><i class="fa fa-check"></i>Lembar Data Mamalia</a></li>
 <li class="chapter" data-level="" data-path="lampiran-1.html"><a href="lampiran-1.html#lembar-data-vegetasi"><i class="fa fa-check"></i>Lembar Data Vegetasi</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="lampiran-2.html"><a href="lampiran-2.html"><i class="fa fa-check"></i>Lampiran 2. Teknik Preservasi Spesimen</a>
+<ul>
+<li class="chapter" data-level="" data-path="lampiran-2.html"><a href="lampiran-2.html#herpetofauna-1"><i class="fa fa-check"></i>Herpetofauna</a></li>
+<li class="chapter" data-level="" data-path="lampiran-2.html"><a href="lampiran-2.html#mamalia-1"><i class="fa fa-check"></i>Mamalia</a></li>
+<li class="chapter" data-level="" data-path="lampiran-2.html"><a href="lampiran-2.html#vegetasi-1"><i class="fa fa-check"></i>vegetasi</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -145,9 +217,9 @@
 <p>Pengamatan burung atau avifauna yang biasa dilakukan oleh FFI`s IP mengadopsi dua metode utama yaitu metode titik hitung di transek (<em>Point transect</em>) (Buckland, 2006) dan daftar jenis MacKinnon (<em>Mackinnon lists</em>) (MacKinnon &amp; Phillipps, 1993). Pada dasarnya metode point transect merupakan modifikasi dari metode titik hitung, namun unit sampelnya berada dalam transek yang sudah ditetapkan, metode ini efektif digunakan pada hutan tropis, dimana jalurnya seringkali sulit untuk dilalui dan burung menghuni seluruh strata hutan dari permukaan tanah hingga diatas tajuk. Dengan fokus pada titik tertentu di dalam transek, deteksi burung jadi lebih efektif. Pada Mackinnon lists survei dilakukan bisa di jalur transek atau pun di luar transek. Kedua metode ini saling melengkapi dalam pengumpulan data jenis-jenis burung</p>
 <div id="persiapan-tim" class="section level3 unnumbered hasAnchor">
 <h3>Persiapan Tim<a href="protokol-survei.html#persiapan-tim" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Tim avifauna idealnya terdiri dari 2 orang, yaitu pengamat utama dan asisten lapangan. Dengan peran dan tanggung jawab yang terangkum dalam tabel <a href="protokol-survei.html#tab:tbta">1</a>.</p>
+<p>Tim avifauna idealnya terdiri dari 2 orang, yaitu pengamat utama dan asisten lapangan. Dengan peran dan tanggung jawab yang terangkum dalam tabel <a href="protokol-survei.html#tab:tbta">2</a>.</p>
 <table>
-<caption><span id="tab:tbta">Table 1: </span> Peran dan tanggung jawab tim avifauna</caption>
+<caption><span id="tab:tbta">Table 2: </span> Peran dan tanggung jawab tim avifauna</caption>
 <colgroup>
 <col width="17%" />
 <col width="41%" />
@@ -177,7 +249,7 @@
 <div id="peralatan" class="section level3 unnumbered hasAnchor">
 <h3>Peralatan<a href="protokol-survei.html#peralatan" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <table>
-<caption><span id="tab:tbpa">Table 2: </span> Peralatan yang dibutuhkan tim avifauna</caption>
+<caption><span id="tab:tbpa">Table 3: </span> Peralatan yang dibutuhkan tim avifauna</caption>
 <colgroup>
 <col width="17%" />
 <col width="41%" />
@@ -312,9 +384,9 @@ Figure 2: Desain VES dalam transek dengan panjang 1 km dan lebar kiri – kanan 
 Langkah awal sebelum melakukan survei salah satunya adalah pengumpulan informasi terkait lokasi survei dan data dasar pada lokasi. Informasi lokasi survei yang dimaksud antara lain, status administrasi, letak dan aksesibilitas lokasi survei. Sedangkan informasi data dasar berupa peta lokasi, data hasil survei sebelumnya dan data pendukung lain yang diperlukan. Informasi tersebut dapat diperoleh secara langsung kepada pengelola lokasi survei atau melalu lembaga yang menyediakan informasi terkait.</p>
 <div id="persiapan-tim-1" class="section level3 unnumbered hasAnchor">
 <h3>Persiapan Tim<a href="protokol-survei.html#persiapan-tim-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Tim herpetofauna idealnya terdiri dari 3 orang, yaitu seorang pencatat, pencari atau pengamat, dan asisten lapangan (Tabel <a href="protokol-survei.html#tab:tabtmh">3</a>). Namun pada kondisi tertentu, survei dapat dilakukan oleh 2 orang saja dengan konsekuensi seorang pencatat berperan juga menjadi spotter pada saat yang sama.</p>
+<p>Tim herpetofauna idealnya terdiri dari 3 orang, yaitu seorang pencatat, pencari atau pengamat, dan asisten lapangan (Tabel <a href="protokol-survei.html#tab:tabtmh">4</a>). Namun pada kondisi tertentu, survei dapat dilakukan oleh 2 orang saja dengan konsekuensi seorang pencatat berperan juga menjadi spotter pada saat yang sama.</p>
 <table>
-<caption><span id="tab:tabtmh">Table 3: </span> Peran dan tanggung jawab tim herpetofauna</caption>
+<caption><span id="tab:tabtmh">Table 4: </span> Peran dan tanggung jawab tim herpetofauna</caption>
 <colgroup>
 <col width="17%" />
 <col width="41%" />
@@ -350,7 +422,7 @@ Langkah awal sebelum melakukan survei salah satunya adalah pengumpulan informasi
 <h3>Peralatan<a href="protokol-survei.html#peralatan-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Peralatan survei yang dipersiapkan disesuaikan dengan waktu, metode dan jumlah surveior. Menyusun daftar peralatan perlu pengelompokan sesuai fungsi untuk mempermudah persiapan, secara umum disusun sebagai berikut:</p>
 <table>
-<caption><span id="tab:tbph">Table 4: </span> Peralatan yang dibutuhkan tim herpetofauna</caption>
+<caption><span id="tab:tbph">Table 5: </span> Peralatan yang dibutuhkan tim herpetofauna</caption>
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -424,6 +496,11 @@ Alat-alat seperti <em>headlamp</em>, GPS dan Kamera. Kalkulasikan kebutuhan bate
 Figure 3: Pengukuran Snout Vent Length (SVL) dan Tail Length (TL) pada spesimen herpetofauna; A) Katak B) Kadal, Cicak, Biawak C) Ular
 </p>
 </div>
+</div>
+<div id="foto-dan-koleksi-spesimen" class="section level4 unnumbered hasAnchor">
+<h4>Foto dan koleksi spesimen<a href="protokol-survei.html#foto-dan-koleksi-spesimen" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Foto satwa berfungsi sebagai bukti keberadaan jenis tersebut, dokumentasi dan media identifikasi. Foto satwa terbagi menjadi dua berdasarkan kegunaannya, yaitu foto sebagai <em>display</em> dengan menunjukkan momen dan posisi menarik dari satwa tersebut. Kemudian foto sebagai media identifikasi dengan menunjukkan detail dari bagian morfologi satwa (Gambar <a href="lampiran-2.html#fig:spesamf1">28</a>). Pengambilan foto dapat dilakukan pada saat menemukan satwa di lokasi/ habitat alaminya, atau dengan menggunakan studio yang dibuat menyerupai habitat alami satwa tersebut. Perlu diperhatiakan dalam pengambilan foto harus memperhatiakan substrat latar belakang yang sesuai dengan habitatnya, kemampuan kamera dalam membuat foto makro dengan kondisi gelap (menggunakan <em>blitz</em>), dan pembanding untuk foto identifikasi. Pemilihan kamera yang tepat terutama dengan kemampuan makro tinggi (jarak lensa dengan satwa kurang dari 10 cm), pengaturan ISO tinggi, mode pengambilan foto pada malam hari, dan pengaturan flash (manual) sangat menentukan hasil foto.</p>
+<p>Jika jenis yang akan didokumentasikan (foto) merupakan jenis yang terlalu sulit untuk diambil di lokasi terutama untuk foto identifikasi, maka dapat dibuat studio buatan yang menyerupai habitatnya. Studio buatan dapat dibuat dengan serasah daun, batang pohon, batu, dan lain-lain pada suatu ruangan (kotak) yang tertutup. Foto identifikasi biasanya dilakukan pada spesimen yang telah diawetkan (mati), agar terlihat jelas morfologi ataupun anatomi tubuh jenis tersebut (gambar <a href="lampiran-2.html#fig:spesamf1">28</a>).</p>
 <p>Beberapa hal penting yang perlu diperhatikan dalam melakukan survei Herpetofauna, adalah sebagai berikut:</p>
 <ul>
 <li>Pengamatan dilakukan pada lokasi yang telah disurvei dengan data jalur, koordinat lokasi, penanda jalur yang lengkap dan perizinan kepada pengelola serta masyarakat sekitar lokasi.</li>
@@ -451,9 +528,9 @@ Figure 3: Pengukuran Snout Vent Length (SVL) dan Tail Length (TL) pada spesimen 
 <p>Target taksa dari setiap metode terangkum dalam <del>Tabel 1</del>. Dalam praktiknya, kajian keanekaragaman hayati mamalia, tidak perlu menggunakan semua perangkat yang disebutkan. Sesuaikan perangkat yang akan dibawa dengan tujuan survei serta sumber daya yang tersedia.</p>
 <div id="persiapan-tim-2" class="section level3 unnumbered hasAnchor">
 <h3>Persiapan Tim<a href="protokol-survei.html#persiapan-tim-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Pelaksanaan survei mamalia di FFI`s IP membutuhkan keterampilan dan langkah kerja yang beragam, sehingga membutuhkan beberapa asisten untuk membantu di lapangan. Idealnya, satu orang peneliti utama dibantu dengan 4 orang asisten dengan peran dan tanggung jawab seperti terlihat pada Tabel <a href="protokol-survei.html#tab:tbtm">5</a>. Dalam pelaksanaannya, jumlah, susunan, formasi, peran dan tanggung jawab asisten dapat berubah sesuai kondisi.</p>
+<p>Pelaksanaan survei mamalia di FFI`s IP membutuhkan keterampilan dan langkah kerja yang beragam, sehingga membutuhkan beberapa asisten untuk membantu di lapangan. Idealnya, satu orang peneliti utama dibantu dengan 4 orang asisten dengan peran dan tanggung jawab seperti terlihat pada Tabel <a href="protokol-survei.html#tab:tbtm">6</a>. Dalam pelaksanaannya, jumlah, susunan, formasi, peran dan tanggung jawab asisten dapat berubah sesuai kondisi.</p>
 <table>
-<caption><span id="tab:tbtm">Table 5: </span> Peran dan tanggung jawab tim mamalia</caption>
+<caption><span id="tab:tbtm">Table 6: </span> Peran dan tanggung jawab tim mamalia</caption>
 <colgroup>
 <col width="17%" />
 <col width="41%" />
@@ -567,9 +644,9 @@ Figure 8: Ilustrasi pengukuran bagian tubuh untuk mamalia kecil
 <li>Kendalikan terlebih dahulu kepalanya (bila terlalu sulit, bisa menggunakan kayu untuk gumpalan kain untuk mengalihkan perhatian), setelah itu pegang bagian badannya, lalu keluarkan mulai dari bagian kaki, setelah itu sayap dan kepala.</li>
 </ul>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:mistnet"></span>
-<img src="images/mistnetuses.png" alt="Ilustrasi pemasangan jaring kabut" width="100%" />
+<img src="images/mistnetuses.png" alt="Ilustrasi pemasangan jaring kabut; (a) Pintu hutan (b) diatas sungai dan, (c) detil pemasangan jaring kabut yang longgar di setiap segmen (sumber; (Borisenko and Kruskop, 2003))" width="100%" />
 <p class="caption">
-Figure 9: Ilustrasi pemasangan jaring kabut
+Figure 9: Ilustrasi pemasangan jaring kabut; (a) Pintu hutan (b) diatas sungai dan, (c) detil pemasangan jaring kabut yang longgar di setiap segmen (sumber; (Borisenko and Kruskop, 2003))
 </p>
 </div>
 <p><strong>Perangkap harpa:</strong></p>
@@ -583,9 +660,9 @@ Figure 9: Ilustrasi pemasangan jaring kabut
 <p><strong>Pencatatan kelelawar:</strong></p>
 <p>Kelelawar yang tertangkap baik dari dari jaring kabut dan perangkap harpa dapat disimpan dulu ke dalam kantong kain untuk dilakukan identifikasi, pengambilan foto dan pengukuran tubuh (Gambar <a href="protokol-survei.html#fig:kelmor">10</a>) di kamp. Bagian tubuh yang diukur adalah panjang tubuh (HB), panjang lengan depan (FA), panjang kaki belakang (HF), panjang ekor (T), panjang telinga (E) dan tragus (Tr) bila ada. Setelah selesai, lepaskan kembali kelelawar di lokasi tertangkap pada malam atau pagi hari.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:kelmor"></span>
-<img src="images/kfm_ilustration.jpg" alt="Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; Kruskop, 2003)" width="100%" />
+<img src="images/kfm_ilustration.jpg" alt="Ilustrasi pengukuran bagian tubuh kelelawar (sumber; Borisenko and Kruskop, 2003)" width="100%" />
 <p class="caption">
-Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; Kruskop, 2003)
+Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber; Borisenko and Kruskop, 2003)
 </p>
 </div>
 </div>
@@ -594,7 +671,7 @@ Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; 
 <div id="vegetasi" class="section level2 unnumbered hasAnchor">
 <h2>Vegetasi<a href="protokol-survei.html#vegetasi" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Secara umum, survei vegetasi dan pengukuran biomassa yang dilakukan FFI`s IP bertujuan untuk menggambarkan kondisi hutan melalui analisis vegetasi (jenis tumbuhan dominan, kerapatan pohon, tutupan kanopi pohon, dsb) serta potensi cadangan karbon yang terkandung di hutan tersebut (karbon atas permukaan, bawah permukaan, serasah, dan pohon mati). Analisis vegetasi biasanya digunakan untuk menggambarkan struktur dan komposisi dari vegetasi suatu habitat. Selain itu, sekaligus juga dapat digunakan untuk inventarisasi biodiversitas floristik suatu area.</p>
-<p>Dari hasil survei vegetasi, kandungan karbon (karbon permukaan dan bawah) dapat di estimasi dengan menggunakan persamaan alometrik yang paling sesuai (Krisnawati et al., 2012; SNI 7724:2011; SNI 7725:2011). Persamaan alometrik yang digunakan akan menggambarkan biomassa dari tiap jenis pohon yang di data. Biomassa tersebut kemudian dikalikan dengan faktor pengali standar, 47% (IPCC, 2012), untuk memperoleh kandungan karbon dari tiap jenis pohon yang di data. Kandungan karbon tersebut kemudian dikalikan dengan berat molekul CO2 (3.67) untuk menghasilkan potensi emisi CO2 dari tiap jenis pohon yang di data. Pertumbuhan pohon atau riap dapat dihitung dengan menggunakan data lokal dari plot permanen, atau menggunakan asumsi pertumbuhan sebesar 3,4-ton biomassa per hektar per tahun (Eggleston et al., 2006; Penman et al., 2003).</p>
+<p>Dari hasil survei vegetasi, kandungan karbon (karbon permukaan dan bawah) dapat di estimasi dengan menggunakan persamaan alometrik yang paling sesuai (Krisnawati et al., 2012; SNI 7724:2011; SNI 7725:2011). Persamaan alometrik yang digunakan akan menggambarkan biomassa dari tiap jenis pohon yang di data. Biomassa tersebut kemudian dikalikan dengan faktor pengali standar, 47% (IPCC, 2012), untuk memperoleh kandungan karbon dari tiap jenis pohon yang di data. Kandungan karbon tersebut kemudian dikalikan dengan berat molekul CO<sub>2</sub> (3.67) untuk menghasilkan potensi emisi CO<sub>2</sub> dari tiap jenis pohon yang di data. Pertumbuhan pohon atau riap dapat dihitung dengan menggunakan data lokal dari plot permanen, atau menggunakan asumsi pertumbuhan sebesar 3,4-ton biomassa per hektar per tahun (Eggleston et al., 2006; Penman et al., 2003).</p>
 <p><strong>Batasan Studi</strong></p>
 <p>survei vegetasi yang dilakukan FFI`s IP dibatasi pada tingkat tumbuhan tinggi tegakan kayu dengan ukuran kayu yang diukur dimulai dari diameter setinggi dada (DBH) 5 cm, dan diklasifikasikan ke dalam 3 kelas, yaitu:</p>
 <ul>
@@ -605,9 +682,9 @@ Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; 
 <p>Liana dan pohon perambat tidak masuk dalam kategori di atas karena tidak berbentuk tegakan. Pembatasan ini dilakukan untuk menyesuaikan efektifitas usaha dan waktu dimana sedapat mungkin objek yang disurvei merupakan komunitas atau struktur utama pembentuk vegetasi. Selain itu, data pengukuran botani ini digunakan pula untuk penghitungan karbon tegakan (Above Ground Biomass - AGB) dimana kandungan karbon terbesar berada pada ketiga kelas kayu tersebut. Karbon pada tingkat semaian dan herba tidak berpengaruh secara signifikan terhadap nilai cadangan karbon</p>
 <div id="persiapan-tim-3" class="section level3 unnumbered hasAnchor">
 <h3>Persiapan Tim<a href="protokol-survei.html#persiapan-tim-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Pelaksanaan survei vegetasi di FFI`s IP membutuhkan ketelitian dan langkah kerja yang cukup banyak sehingga membutuhkan beberapa asisten untuk membantu di lapangan. Idealnya, satu orang peneliti utama dibantu dengan 4 orang asisten lokal dengan peran dan tanggung jawab seperti terlihat pada Tabel <a href="protokol-survei.html#tab:tabtmv">6</a>. Dalam pelaksanaannya, jumlah, susunan dan formasi peran dan tanggung jawab asisten lokal dapat berubah sesuai kondisi.</p>
+<p>Pelaksanaan survei vegetasi di FFI`s IP membutuhkan ketelitian dan langkah kerja yang cukup banyak sehingga membutuhkan beberapa asisten untuk membantu di lapangan. Idealnya, satu orang peneliti utama dibantu dengan 4 orang asisten lokal dengan peran dan tanggung jawab seperti terlihat pada Tabel <a href="protokol-survei.html#tab:tabtmv">7</a>. Dalam pelaksanaannya, jumlah, susunan dan formasi peran dan tanggung jawab asisten lokal dapat berubah sesuai kondisi.</p>
 <table>
-<caption><span id="tab:tabtmv">Table 6: </span> Peran dan tanggung jawab tim vegetasi</caption>
+<caption><span id="tab:tabtmv">Table 7: </span> Peran dan tanggung jawab tim vegetasi</caption>
 <colgroup>
 <col width="29%" />
 <col width="41%" />
@@ -656,9 +733,9 @@ Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; 
 </div>
 <div id="peralatan-3" class="section level3 unnumbered hasAnchor">
 <h3>Peralatan<a href="protokol-survei.html#peralatan-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Peralatan dan bahan yang digunakan dalam survey vegetasi terangkum pada Tabel <a href="protokol-survei.html#tab:tabpv">7</a></p>
+<p>Peralatan dan bahan yang digunakan dalam survey vegetasi terangkum pada Tabel <a href="protokol-survei.html#tab:tabpv">8</a></p>
 <table>
-<caption><span id="tab:tabpv">Table 7: </span> Peralatan yang dibutuhkan tim vegetasi</caption>
+<caption><span id="tab:tabpv">Table 8: </span> Peralatan yang dibutuhkan tim vegetasi</caption>
 <colgroup>
 <col width="29%" />
 <col width="41%" />
@@ -752,9 +829,9 @@ Figure 10: Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko &amp; 
 </div>
 <div id="protokol-pengamatan-3" class="section level3 unnumbered hasAnchor">
 <h3>Protokol Pengamatan<a href="protokol-survei.html#protokol-pengamatan-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Survei vegetasi dilakukan dengan metode petak persegi berukuran 125 x 20 m merujuk pada SNI 7724:2011 dan P.33/Menhut-II/2009. Petak diletakkan pada garis transek dengan interval antar petak 500 m penelitian yang telah ditetapkan. Setiap petak terdiri dari tiga subpetak dengan pembagian kategori kelas pohon yang berbeda (Tabel <a href="protokol-survei.html#tab:tabpvil">8</a>). Penempatan petak persegi terhadap transek diupayakan berseling kanan dan kiri per jarak 500 m antar titik awal petak. Petak pertama ditempatkan di sebelah kanan jalur transek. Penempatan sub-petak B dan C adalah di dalam dan sebelah awal dari petak A, kemudian sub-petak C berada di dalam sub-petak B pada sisi yang menjauh garis transek. Ilustrasi penempatan petak dan pembagian kelas sub-petak dapat dilihat pada gambar Gambar <a href="protokol-survei.html#fig:figpv">11</a>.</p>
+<p>Survei vegetasi dilakukan dengan metode petak persegi berukuran 125 x 20 m merujuk pada SNI 7724:2011 dan P.33/Menhut-II/2009. Petak diletakkan pada garis transek dengan interval antar petak 500 m penelitian yang telah ditetapkan. Setiap petak terdiri dari tiga subpetak dengan pembagian kategori kelas pohon yang berbeda (Tabel <a href="protokol-survei.html#tab:tabpvil">9</a>). Penempatan petak persegi terhadap transek diupayakan berseling kanan dan kiri per jarak 500 m antar titik awal petak. Petak pertama ditempatkan di sebelah kanan jalur transek. Penempatan sub-petak B dan C adalah di dalam dan sebelah awal dari petak A, kemudian sub-petak C berada di dalam sub-petak B pada sisi yang menjauh garis transek. Ilustrasi penempatan petak dan pembagian kelas sub-petak dapat dilihat pada gambar Gambar <a href="protokol-survei.html#fig:figpv">11</a>.</p>
 <table>
-<caption><span id="tab:tabpvil">Table 8: </span> Petak dan anak-petak persegi untuk tiap kategori vegetasi.</caption>
+<caption><span id="tab:tabpvil">Table 9: </span> Petak dan anak-petak persegi untuk tiap kategori vegetasi.</caption>
 <thead>
 <tr class="header">
 <th align="left">Ukuran sub-petak</th>
@@ -876,9 +953,9 @@ Figure 15: Contoh pendugaan tutupan tajuk. (Sumber; <a href="https://doi.org/10.
 Figure 16: Cara mengukur diameter setinggi dada secara langsung. (Sumber: <a href="http://www.epa.gov" class="uri">http://www.epa.gov</a>)
 </p>
 </div>
-<p>Dimensi bentuk pohon seringkali tidak membulat sempurna atau memiliki bentuk khusus seperti banir tinggi atau akar tunjang. Untuk pohon-pohon dengan kondisi khusus tersebut, pengukuran dilakukan dengan ketentuan seperti pada ilustrasi tabel <a href="protokol-survei.html#tab:bkk">9</a> di bawah ini.</p>
+<p>Dimensi bentuk pohon seringkali tidak membulat sempurna atau memiliki bentuk khusus seperti banir tinggi atau akar tunjang. Untuk pohon-pohon dengan kondisi khusus tersebut, pengukuran dilakukan dengan ketentuan seperti pada ilustrasi tabel <a href="protokol-survei.html#tab:bkk">10</a> di bawah ini.</p>
 <table>
-<caption><span id="tab:bkk">Table 9: </span> Teknik-teknik pengukuran diameter batang dengan kondisi khusus</caption>
+<caption><span id="tab:bkk">Table 10: </span> Teknik-teknik pengukuran diameter batang dengan kondisi khusus</caption>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
@@ -941,15 +1018,15 @@ Figure 17: Alat distometer dan konsep pengukuran tinggi pohon. (Sumber:theorigin
 <p><strong>Hal yang harus diperhatikan:</strong></p>
 <p>Pengukuran langsung terhadap target tinggi total besar kemungkinan sulit dilakukan karena kendala banyaknya penghalang di sekitar target. Dalam kondisi demikian, penggunaan laser distometer dimaksudkan untuk meminimalisir margin eror dalam pengukuran tinggi secara langsung. Arahkan target laser ke bagian yang sedekat mungkin dengan puncak target, kemudian dari jarak tersebut tambahkan estimasi tinggi hingga ke puncak. Estimasi yang dibuat tersebut diasumsikan sebagai margin eror dari tinggi sebenarnya.</p>
 </div>
-<div id="foto-dan-koleksi-spesimen" class="section level5 unnumbered hasAnchor">
-<h5>Foto dan koleksi spesimen<a href="protokol-survei.html#foto-dan-koleksi-spesimen" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="foto-dan-koleksi-spesimen-1" class="section level5 unnumbered hasAnchor">
+<h5>Foto dan koleksi spesimen<a href="protokol-survei.html#foto-dan-koleksi-spesimen-1" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Identifikasi di lapangan sering kali sangat sulit dilakukan, terlebih bila jenis tersebut belum pernah dijumpai sebelumnya. Dalam pencatatan, nama pohon teridentifikasi di lapangan bisa berupa nama lokal dan/atau tingkat taksa yang paling mendekati, seperti misal Fabaceae, Shorea sp. Untuk identifikasi lebih lanjut, spesimen setiap jenis harus diambil.</p>
 <p>Pengambilan spesimen sedapat mungkin lengkap mewakili karakter penting untuk indetifikasi. Karakter tersebut diantaranya daun dengan ranting-rantingnya, bunga dan buah, serta karakter khusus lainnya seperti damar. Upayakan untuk sedapat mungkin mengoleksi spesimen tersebut untuk dipreparasi atau herbaria. Jika spesimen karakter-karakter tersebut sangat sulit untuk dicuplik, maka seminimalnya ambil serasah daunnya paling sedikit 3 lembar per jenis kemudian beri nama kode pohon dengan spidol marker. Teknik preparasi spesimen herbaria dapat dilihat pada <del>lampiran xx</del>. Catat ciri-ciri khas dari jenis di bagian keterangan pada lembar data, seperti berdamar susu, berduri panjang, dll.</p>
-<p>Selain pengambilan spesimen, pengambilan gambar dari karakter tumbuhan pun diperlukan untuk melengkapi dan membantu proses identifikasi. Teknik pengambilan gambar karakter tersebut sebisa mungkin mewakili setiap karakter yang dibutuhkan untuk proses identifikasi. Karakter yang wajib diambil gambarnya mencakup: daun dan struktur percabangannya, batang lengkap dengan takikan batangnya, karakter generatif (bila dijumpai), serta karakter khusus seperti damar, getah, dan duri. Contoh pengambilan gambar karakter tersebut dapat dilihat pada tabel <a href="protokol-survei.html#tab:tabgkj">10</a></p>
+<p>Selain pengambilan spesimen, pengambilan gambar dari karakter tumbuhan pun diperlukan untuk melengkapi dan membantu proses identifikasi. Teknik pengambilan gambar karakter tersebut sebisa mungkin mewakili setiap karakter yang dibutuhkan untuk proses identifikasi. Karakter yang wajib diambil gambarnya mencakup: daun dan struktur percabangannya, batang lengkap dengan takikan batangnya, karakter generatif (bila dijumpai), serta karakter khusus seperti damar, getah, dan duri. Contoh pengambilan gambar karakter tersebut dapat dilihat pada tabel <a href="protokol-survei.html#tab:tabgkj">11</a></p>
 <p><strong>Hal yang perlu diperhatikan:</strong></p>
 <p>Daun serasah yang dicuplik harus tepat berasal dari pohon jenis yang dimaksud dan tidak dalam kondisi rusak/terdekomposisi. Gunakan teropong atau bantuan lensa zoom dari kamera untuk memastikan bentuk daun yang masih berada di atas pohon.</p>
 <table>
-<caption><span id="tab:tabgkj">Table 10: </span> Contoh-contoh pengambilan gambar karakter jenis</caption>
+<caption><span id="tab:tabgkj">Table 11: </span> Contoh-contoh pengambilan gambar karakter jenis</caption>
 <colgroup>
 <col width="50%" />
 <col width="50%" />

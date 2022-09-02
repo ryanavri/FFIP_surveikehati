@@ -1,3 +1,22 @@
 # Rancangan Survei {-}
 
-Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik cuplik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+
+
+```{r flextable, include=FALSE}
+library(flextable)
+dat <- data.frame(
+  letters1 = c("a", "b", "b", "c"), 
+  letters2 = c("d", "e", "b", "b"), 
+  number = 1:4, stringsAsFactors = FALSE )
+
+myft <- flextable(dat)
+myft <- theme_box(myft)
+myft
+```
+
+```{r ft.align="center", tab.cap='airquality dataset', tab.id='tab1', label='tab1'}
+merge_v(myft, j = ~ letters1 + letters2 )
+```
+
+* This is a reference to flextable \@ref(tab:tab1).

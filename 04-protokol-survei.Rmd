@@ -165,6 +165,13 @@ Pengamatan pada waktu siang hari dilakukan dengan estimasi waktu pukul 08.00 –
 knitr::include_graphics("images/mhf_ilustration.jpg")
 ```
 
+#### Foto dan koleksi spesimen {-}
+Foto satwa berfungsi sebagai bukti keberadaan jenis tersebut, dokumentasi dan media identifikasi. Foto satwa terbagi menjadi dua berdasarkan kegunaannya, yaitu foto sebagai _display_ dengan menunjukkan momen dan posisi menarik dari satwa tersebut. Kemudian foto sebagai media identifikasi dengan menunjukkan detail dari bagian morfologi satwa (Gambar \@ref(fig:spesamf1)). Pengambilan foto dapat dilakukan pada saat menemukan satwa di lokasi/ habitat alaminya, atau dengan menggunakan studio yang dibuat menyerupai habitat alami satwa tersebut. Perlu diperhatiakan dalam pengambilan foto harus memperhatiakan substrat latar belakang yang sesuai dengan habitatnya, kemampuan kamera dalam membuat foto makro dengan kondisi gelap (menggunakan _blitz_), dan pembanding untuk foto identifikasi. Pemilihan kamera yang tepat terutama dengan kemampuan makro tinggi (jarak lensa dengan satwa kurang dari 10 cm), pengaturan ISO tinggi, mode pengambilan foto pada malam hari, dan pengaturan flash (manual) sangat menentukan hasil foto.
+
+Jika jenis yang akan didokumentasikan (foto) merupakan jenis yang terlalu sulit untuk diambil di lokasi terutama untuk foto identifikasi, maka dapat dibuat studio buatan yang menyerupai habitatnya. Studio buatan dapat dibuat dengan serasah daun, batang pohon, batu, dan lain-lain pada suatu ruangan (kotak) yang tertutup. Foto identifikasi biasanya dilakukan pada spesimen yang telah diawetkan (mati), agar terlihat jelas morfologi ataupun anatomi tubuh jenis tersebut (gambar \@ref(fig:spesamf1)).
+
+
+
 Beberapa hal penting yang perlu diperhatikan dalam melakukan survei Herpetofauna, adalah sebagai berikut:
 
 * Pengamatan dilakukan pada lokasi yang telah disurvei dengan data jalur, koordinat lokasi, penanda jalur yang lengkap dan perizinan kepada pengelola serta masyarakat sekitar lokasi.
@@ -271,7 +278,7 @@ Perangkap jaring kabut dan harpa dapat digunakan untuk menangkap kelelawar, kedu
 * Untuk melepaskan kelelawar yang terperangkap, periksa dulu arah masuknya kelelawar pada jaring kabut
 * Kendalikan terlebih dahulu kepalanya (bila terlalu sulit, bisa menggunakan kayu untuk gumpalan kain untuk mengalihkan perhatian), setelah itu pegang bagian badannya, lalu keluarkan mulai dari bagian kaki, setelah itu sayap dan kepala.
 
-```{r mistnet, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pemasangan jaring kabut'}
+```{r mistnet, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pemasangan jaring kabut; (a) Pintu hutan (b) diatas sungai dan, (c) detil pemasangan jaring kabut yang longgar di setiap segmen (sumber; (Borisenko and Kruskop, 2003))'}
 knitr::include_graphics("images/mistnetuses.png")
 ```
 
@@ -287,14 +294,14 @@ knitr::include_graphics("images/mistnetuses.png")
 
 Kelelawar yang tertangkap baik dari dari jaring kabut dan perangkap harpa dapat disimpan dulu ke dalam kantong kain untuk dilakukan identifikasi, pengambilan foto dan pengukuran tubuh (Gambar \@ref(fig:kelmor)) di kamp. Bagian tubuh yang diukur adalah panjang tubuh (HB), panjang lengan depan (FA), panjang kaki belakang (HF), panjang ekor (T), panjang telinga (E) dan tragus (Tr) bila ada. Setelah selesai, lepaskan kembali kelelawar di lokasi tertangkap pada malam atau pagi hari. 
 
-```{r kelmor, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pengukuran bagian tubuh kelelawar (sumber: Borisenko & Kruskop, 2003)'}
+```{r kelmor, echo=FALSE, out.width = '100%',fig.align='center',fig.cap='Ilustrasi pengukuran bagian tubuh kelelawar (sumber; Borisenko and Kruskop, 2003)'}
 knitr::include_graphics("images/kfm_ilustration.jpg")
 ```
 
 ## Vegetasi {-}
 Secara umum, survei vegetasi dan pengukuran biomassa yang dilakukan FFI`s IP bertujuan untuk menggambarkan kondisi hutan melalui analisis vegetasi (jenis tumbuhan dominan, kerapatan pohon, tutupan kanopi pohon, dsb) serta potensi cadangan karbon yang terkandung di hutan tersebut (karbon atas permukaan, bawah permukaan, serasah, dan pohon mati). Analisis vegetasi biasanya digunakan untuk menggambarkan struktur dan komposisi dari vegetasi suatu habitat. Selain itu, sekaligus juga dapat digunakan untuk inventarisasi biodiversitas floristik suatu area.
 
-Dari hasil survei vegetasi, kandungan karbon (karbon permukaan dan bawah) dapat di estimasi dengan menggunakan persamaan alometrik yang paling sesuai (Krisnawati et al., 2012; SNI 7724:2011; SNI 7725:2011). Persamaan alometrik yang digunakan akan menggambarkan biomassa dari tiap jenis pohon yang di data. Biomassa tersebut kemudian dikalikan dengan faktor pengali standar, 47% (IPCC, 2012), untuk memperoleh kandungan karbon dari tiap jenis pohon yang di data. Kandungan karbon tersebut kemudian dikalikan dengan berat molekul CO2 (3.67) untuk menghasilkan potensi emisi CO2 dari tiap jenis pohon yang di data. Pertumbuhan pohon atau riap dapat dihitung dengan menggunakan data lokal dari plot permanen, atau menggunakan asumsi pertumbuhan sebesar 3,4-ton biomassa per hektar per tahun (Eggleston et al., 2006; Penman et al., 2003).
+Dari hasil survei vegetasi, kandungan karbon (karbon permukaan dan bawah) dapat di estimasi dengan menggunakan persamaan alometrik yang paling sesuai (Krisnawati et al., 2012; SNI 7724:2011; SNI 7725:2011). Persamaan alometrik yang digunakan akan menggambarkan biomassa dari tiap jenis pohon yang di data. Biomassa tersebut kemudian dikalikan dengan faktor pengali standar, 47% (IPCC, 2012), untuk memperoleh kandungan karbon dari tiap jenis pohon yang di data. Kandungan karbon tersebut kemudian dikalikan dengan berat molekul CO<sub>2</sub> (3.67) untuk menghasilkan potensi emisi CO<sub>2</sub> dari tiap jenis pohon yang di data. Pertumbuhan pohon atau riap dapat dihitung dengan menggunakan data lokal dari plot permanen, atau menggunakan asumsi pertumbuhan sebesar 3,4-ton biomassa per hektar per tahun (Eggleston et al., 2006; Penman et al., 2003).
 
 **Batasan Studi**
 
