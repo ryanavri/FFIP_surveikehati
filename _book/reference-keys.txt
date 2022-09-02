@@ -1,6 +1,11 @@
-tab:tb1
-tab:tb2
-fig:fig1
+tab:tbta
+tab:tbpa
+fig:figpc
+fig:figves
+tab:tabtmh
+tab:tbph
+fig:figmhf
+tab:tabtmv
 fig:ldpth
 fig:ldppl
 fig:ldpml
