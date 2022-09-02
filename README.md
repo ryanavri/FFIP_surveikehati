@@ -1,1 +1,1 @@
-Draft untuk membuat panduan survei kehati tes commit cekcke
+Draft untuk membuat panduan survei kehati

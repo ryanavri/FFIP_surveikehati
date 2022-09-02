@@ -4,3 +4,9 @@ fig:fig1
 fig:ldpth
 fig:ldppl
 fig:ldpml
+fig:ldhves
+fig:ldmtg
+fig:ldmpk
+fig:ldmp
+fig:ldvip
+fig:ldvm
