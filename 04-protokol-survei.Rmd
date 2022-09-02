@@ -268,3 +268,5 @@ Table: (\#tab:tabpvil) Teknik-teknik pengukuran diameter batang dengan kondisi k
 | **Pohon dengan liana.** Jika liana tumbuh pada titik pengukuran, jangan potong liana tersebut. Jika memungkinkan, Tarik liana menjauhi batang dan sematkan meter dbh tape di belakang liana sehingga dbh tape dapat melingkari batang dengan sempurna. Jika tidak memungkinkan, maka dengan bantuan pisau atau parang, buat dbh tape menyisip di antara liana sehingga dapat melingkari batang. Atau, jika liana sudah terlampau besar atau sudah sangat menempel pada batang, maka gunakan sisi belakang dari dbh tape (atau meteran ukur) untuk mengukur diameter batang secara visual | ![](images/vtb9.jpg) |
 
 
+
+
