@@ -6,6 +6,9 @@ tab:tabtmh
 tab:tbph
 fig:figmhf
 tab:tabtmv
+tab:tabpv
+tab:tabpvil
+fig:figpv
 fig:ldpth
 fig:ldppl
 fig:ldpml
