@@ -1,6 +1,6 @@
 # Rancangan Survei {-}
 
-Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara (tabel \@ref(tab:tab1)).
 
 
 ```{r cftb, include=FALSE}
@@ -20,12 +20,9 @@ myti <- flextable(ragamtd) %>%
 myti
 ```
 
-* This is a reference to flextable \@ref(tab:tab1).
+Setiap metode yang digunakan dalam tabel \@ref(tab:tab1) membutuhkan _Standard sampling unit_ (SSU) / unit cuplik, yaitu suatu kelompok pengamatan atau data yang dikumpulkan secara independen berdasarkan metode yang terdefinisi dengan jelas dan dilakukan berulang-ulang. SSU biasanya menggambarkan jumlah sampel (N) dalam tes statistik. Unit cuplik harus konsisten sepanjang studi berlangsung. Sebagai contoh; jika unit cuplik yang digunakan adalah plot sirkular untuk pengamatan burung dengan radius pengamatan 50 meter, maka plot lainnya harus dengan radius yang sama. Dalam melakukan pencuplikan (sampling), asumsi dasar yang harus dipenuhi adalah cuplikan itu mampu menggambarkan keseluruhan area yang disurvei. Oleh karena itu, jumlah sampel yang diambil harus cukup banyak untuk dapat dijadikan perwakilan area. 
 
+Salah satu cara yang dapat digunakan untuk memaksimalkan ukuran sampel adalah pengulangan / replikasi. Replikasi pada dasarnya adalah melakukan pengambilan secara berulang atau beberapa kali di dalam *SSU*. Replikasi mengurangi bias dalam pengamatan, sebagai contoh; Jika pengamatan dilakukan hanya 1 kali di suatu plot, besar kemungkinan akan banyak spesies yang luput dari pengamatan, namun jika pengamatan dilakukan selama beberapa hari, besar kemungkinan akan banyak temuan spesies baru dibandingkan hari sebelumnya.
 
-Setiap metode yang digunakan dalam tabel tersebut membutuhkan _Standard sampling unit_ (SSU), yaitu suatu kelompok pengamatan atau data yang dikumpulkan secara independen berdasarkan metode yang terdefinisi dengan jelas dan dilakukan berulang-ulang. SSU biasanya menggambarkan jumlah sampel (N) dalam tes statistik. 
+Seringkali analisa statistik dalam kajian satwa liar juga membutuhkan sejumlah data yang cukup banyak. Sebagai contoh; Jika kita memasang 1 kamera jebak selama 1 malam untuk menangkap gambar rusa (dalam statistik ukuran sampel tersebut adalah N=1), dan pada malam itu tidak tertangkap rusa sama sekali, belum tentu dikawasan tersebut tidak terdapat rusa (_false-absence_), sebaliknya jika 10 unit kamera jebak dipasang selama 1 malam (N=10) dan 5 diantaranya menangkap gambar rusa, kita juga belum bisa mengambil kesimpulan, bahwa hanya 5 area yang dihuni oleh rusa. Jika 30 kamera jebak dipasang pada kawasan hutan dan masing-masing aktif selama 30 hari (N=900), maka kita mungkin baru bisa mengambil kesimpulan yang lebih akurat dan presisi. Penggunaan statistik dapat memberikan tingkat keyakinan terhadap keputusan yang kita ambil berdasarkan jumlah unit cuplik yang digunakan.
 
-
-Setiap metode yang digunakan dalam tabel \@ref(tab:tab1) pada praktiknya hanya mencuplik sebagian area atau populasi untuk mendapatkan gambaran habitat yang jauh lebih luas. Hal ini dilakukan untuk mengoptimalkan waktu, tenaga dan biaya.
-
-Dalam melakukan pencuplikan (sampling) asusmi dasar yang harus dipenuhi adalah cuplikan itu mampu menggambarkan keseluruhan area yang disurvei. Oleh karena itu, jumlah sampel harus cukup banyak untuk dijadikan perwakilan. 
