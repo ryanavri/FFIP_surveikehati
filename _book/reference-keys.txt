@@ -38,3 +38,7 @@ fig:ldvip
 fig:ldvm
 fig:spesamf1
 fig:spesamf2
+fig:ranting
+fig:preherba
+fig:oven
+fig:herba

@@ -1,5 +1,4 @@
 delete_merged_file: true
 language:
-output_dir : 'docs'
   ui:
     chapter_name: "Chapter "
