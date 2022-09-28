@@ -23,4 +23,9 @@ myti
 * This is a reference to flextable \@ref(tab:tab1).
 
 
+Setiap metode yang digunakan dalam tabel tersebut membutuhkan _Standard sampling unit_ (SSU), yaitu suatu kelompok pengamatan atau data yang dikumpulkan secara independen berdasarkan metode yang terdefinisi dengan jelas dan dilakukan berulang-ulang. SSU biasanya menggambarkan jumlah sampel (N) dalam tes statistik. 
 
+
+Setiap metode yang digunakan dalam tabel \@ref(tab:tab1) pada praktiknya hanya mencuplik sebagian area atau populasi untuk mendapatkan gambaran habitat yang jauh lebih luas. Hal ini dilakukan untuk mengoptimalkan waktu, tenaga dan biaya.
+
+Dalam melakukan pencuplikan (sampling) asusmi dasar yang harus dipenuhi adalah cuplikan itu mampu menggambarkan keseluruhan area yang disurvei. Oleh karena itu, jumlah sampel harus cukup banyak untuk dijadikan perwakilan. 
