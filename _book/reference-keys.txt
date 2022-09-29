@@ -1,4 +1,6 @@
 tab:tab1
+fig:sandomsampling
+fig:randomstrat
 tab:tbta
 tab:tbpa
 fig:figpc
@@ -42,3 +44,7 @@ fig:ranting
 fig:preherba
 fig:oven
 fig:herba
+penentuan-peletakan-lokasi-unit-cuplik
+purposive-sampling
+random-sampling
+stratified-sampling
