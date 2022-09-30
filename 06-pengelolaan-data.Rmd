@@ -1,2 +1,7 @@
 # Pengelolaan Data {-}
 
+Pengelolaan data yang baik merupakan aspek yang penting dalam upaya konservasi, dengan adanya data yang terkelola dengan baik, potensi untuk kebermanfaatan yang lebih luas semakin teroptimalkan, seperti; menghasilkan analisa data yang lebih holistik dan tepat, menjadi pembelajaran untuk perbaikan pada proyek berikutnya serta kolaborasi antar institusi. Oleh karena itu praktik terbaik dalam pengelolaan data adalah ketika data tersebut dapat disimpan serta didokumentasikan dengan benar sehingga dapat memfasilitasi untuk penggunaan di kemudian hari.
+
+Pada bab ini hanya menyajikan rekomendasi pengelolaan data kehati yang dihasilkan oleh kajian survei kehati secara umum. Data kehati yang dihasilkan oleh FFI`s IP, umumnya menghasilkan 3 jenis data yaitu; data tabular, spasial dan dokumentasi (foto/video). Ketiga jenis data ini saling terkait satu sama lain sehingga struktur folder dan mekanisme penamaan data yang baku harus diterapkan agar fungsi dari ketiga ini dapat saling terkait. Yang terakhir, supaya pemanfaatan data lebih optimal, laporan atau hasil dari kajian juga perlu ditempatkan dalam struktur folder yang sama.
+
+  

@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-]{book}
+  oneside]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -33,6 +33,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -86,13 +87,13 @@
 
 \title{Draft Panduan Survei Keanekaragaman Hayati}
 \author{Biodive FFI`s IP}
-\date{2022-09-12}
+\date{2022-09-29}
 
 \begin{document}
 \maketitle
 
 {
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{4}
 \tableofcontents
 }
 \hypertarget{prakata}{%
@@ -166,7 +167,7 @@ Perhatikan penggunaan pisau tebas. Penggunaan pisau tebas saat membuka jalur ser
 \chapter*{Rancangan Survei}\label{rancangan-survei}}
 \addcontentsline{toc}{chapter}{Rancangan Survei}
 
-Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara.
+Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai panduan (Bookhout, 1994; Elzinga et al., 2009). Dalam panduan ini kami hanya menyimpulkan sebagian yang sering dipergunakan dalam ruang lingkup kerja FFI`s IP. Secara umum teknik ini dibagi dalam dua hal dalam koleksi datanya, yaitu secara observatif atau perjumpaan langsung dan penangkapan. Konteks penangkapan dalam hal ini tidak hanya terbatas menangkap satwanya tapi juga dalam media gambar dan suara (tabel \ref{tab:tab1}).
 
 \providecommand{\docline}[3]{\noalign{\global\setlength{\arrayrulewidth}{#1}}\arrayrulecolor[HTML]{#2}\cline{#3}}
 
@@ -257,11 +258,69 @@ Beragam teknik dalam mencuplik satwa liar sudah banyak dibahas dalam berbagai pa
 
 \end{longtable}
 
-\begin{itemize}
-\tightlist
-\item
-  This is a reference to flextable \ref{tab:tab1}.
-\end{itemize}
+Setiap metode yang digunakan dalam tabel \ref{tab:tab1} membutuhkan \emph{Standard sampling unit} (SSU) / unit cuplik, yaitu suatu kelompok pengamatan atau data yang dikumpulkan secara independen berdasarkan metode yang terdefinisi dengan jelas dan dilakukan berulang-ulang. SSU biasanya menggambarkan jumlah sampel (N) dalam tes statistik. Unit cuplik harus konsisten sepanjang studi berlangsung. Sebagai contoh; jika unit cuplik yang digunakan adalah plot sirkular untuk pengamatan burung dengan radius pengamatan 50 meter, maka plot lainnya harus dengan radius yang sama. Dalam melakukan pencuplikan (sampling), asumsi dasar yang harus dipenuhi adalah cuplikan itu mampu menggambarkan keseluruhan area yang disurvei. Oleh karena itu, jumlah sampel yang diambil harus cukup banyak untuk dapat dijadikan perwakilan area.
+
+Salah satu cara yang dapat digunakan untuk memaksimalkan ukuran sampel adalah pengulangan / replikasi. Replikasi pada dasarnya adalah melakukan pengambilan secara berulang atau beberapa kali di dalam \emph{SSU}. Replikasi mengurangi bias dalam pengamatan, sebagai contoh; Jika pengamatan dilakukan hanya 1 kali di suatu plot, besar kemungkinan akan banyak spesies yang luput dari pengamatan, namun jika pengamatan dilakukan selama beberapa hari, besar kemungkinan akan banyak temuan spesies baru dibandingkan hari sebelumnya.
+
+Seringkali analisa statistik dalam kajian satwa liar juga membutuhkan sejumlah data yang cukup banyak. Sebagai contoh; Jika kita memasang 1 kamera jebak selama 1 malam untuk menangkap gambar rusa (dalam statistik ukuran sampel tersebut adalah N=1), dan pada malam itu tidak tertangkap rusa sama sekali, belum tentu dikawasan tersebut tidak terdapat rusa (\emph{false-absence}), sebaliknya jika 10 unit kamera jebak dipasang selama 1 malam (N=10) dan 5 diantaranya menangkap gambar rusa, kita juga belum bisa mengambil kesimpulan, bahwa hanya 5 area yang dihuni oleh rusa. Jika 30 kamera jebak dipasang pada kawasan hutan dan masing-masing aktif selama 30 hari (N=900), maka kita mungkin baru bisa mengambil kesimpulan yang lebih akurat dan presisi. Penggunaan statistik dapat memberikan tingkat keyakinan terhadap keputusan yang kita ambil berdasarkan jumlah unit cuplik yang digunakan.
+
+\hypertarget{penentuan-peletakan-lokasi-unit-cuplik}{%
+\section*{Penentuan peletakan lokasi unit cuplik}\label{penentuan-peletakan-lokasi-unit-cuplik}}
+\addcontentsline{toc}{section}{Penentuan peletakan lokasi unit cuplik}
+
+Rancangan peletakan lokasi unit cuplik harus dapat menggambarkan keseluruhan lokasi secara umum, oleh karena itu harus disesuaikan dengan tujuan studi dan kondisi habitat. Metode-metode penentuan lokasi tersebut diantaranya adalah \emph{purposive, random, dan stratified}.
+
+\hypertarget{purposive-sampling}{%
+\subsection*{\texorpdfstring{\emph{Purposive sampling}}{Purposive sampling}}\label{purposive-sampling}}
+\addcontentsline{toc}{subsection}{\emph{Purposive sampling}}
+
+Metode ini dikenal juga dengan \emph{judgemental selective}, artinya penempatan unit cuplik dipilih secara langsung berdasarkan subjektivitas peneliti dengan pertimbangan tertentu, misalnya area dimana keberadaan jenis telah diketahui. Metode ini umumnya bersifat kualitatif dan tidak melibatkan pengolahan statistik karena setiap titik cupliknya diperlakukan berbeda, atau tidak semua titik di dalam populasi cuplik memiliki peluang untuk dipilih. Metode ini baik diaplikasikan untuk pendataan jenis dimana lokasi keberadaan jenis telah diketahui atau diperkirakan. Contoh dari purposive sampling ini diantaranya pemilihan sungai untuk survey katak. Sungai dipilih dengan pertimbangan bahwa sungai sebagai habitat katak akan memberikan probabilitas perjumpaan yang lebih besar dibanding kawasan lainnya.
+
+\hypertarget{random-sampling}{%
+\subsection*{\texorpdfstring{\emph{Random sampling }}{Random sampling }}\label{random-sampling}}
+\addcontentsline{toc}{subsection}{\emph{Random sampling }}
+
+Pada metode ini, penempatan unit cuplik ditetapkan secara acak di dalam batas-batas area yang telah ditetapkan sebelumnya. Asumsi yang digunakan pada metode ini adalah bahwa setiap titik memiliki probabilitas yang sama untuk dipilih, sehingga semakin banyak titik yang dicuplik akan semakin mewakili populasi area. Metode ini baik diaplikasikan pada area survey dimana sebaran populasi cenderung normal dan memiliki kondisi habitat yang realtif homogen, contohnya survey burung di area hutan dengan tipe habitat yang seragam.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/rsamp} 
+
+}
+
+\caption{Ilustrasi peletakan unit cuplik secara acak (random) [kiri] titik hitung [kanan] transek}\label{fig:sandomsampling}
+\end{figure}
+
+\hypertarget{stratified-sampling}{%
+\subsection*{\texorpdfstring{\emph{Stratified sampling}}{Stratified sampling}}\label{stratified-sampling}}
+\addcontentsline{toc}{subsection}{\emph{Stratified sampling}}
+
+Stratifikasi umumnya digunakan untuk membatasi sebaran populasi cuplik dimana terdapat perbedaan tipe habitat di dalam area survei. Asumsi yang diambil adalah bahwa tipe habitat yang berbeda cenderung memberikan keterwakilan populasi yang berbeda secara signifikan.
+
+Langkah pembagian strata paling mudah adalah dengan melihat kategori tutupan lahan atau tipe habitat sehingga akan didapat sejumlah strata sebanyak tipe habitat yang ada. Di masing-masing strata kemudian dilakukan pemilihan unit cuplik secara acak. Dengan demikian, setiap strata memiliki keterwakilan cuplik yang setara
+
+Meski demikian, jumlah pembagian unit cuplik disetiap strata bergantung pada prinsip variabilitas spesies. Sebagai contoh: {[}i{]} Hutan sekunder alami cenderung memiliki kekayaan jenis lebih tinggi dibandingkan dengan perkebunan, sehingga jumlah unit cuplik dikawasan hutan harus lebih banyak dibandingkan di perkebunan. {[}ii{]} Sebaliknya, apabila kita membandingkan dua strata yang belum diketahui variabilitasnya seperti hutan sekunder dataran rendah dan hutan sekunder dataran tinggi maka jumlah unit cupliknya diupayakan sama.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/randomstrat} 
+
+}
+
+\caption{Ilustrasi peletakan unit cuplik menggunakan strata (stratified)}\label{fig:randomstrat}
+\end{figure}
+
+Konsep stratifikasi juga bisa dilakukan paska survei, sebagai contoh jika transek atau plot yang digunakan sama antara vegetasi dan fauna. Kemudian, hasil survei vegetasi menemukan bahwa terdapat area dengan kepadatan biomasa yang tinggi, rendah dan sedang atau memiliki area dengan kelompok tipe vegetasi yang berbeda secara signifikan. Maka analisa untuk fauna bisa dikelompokan sesuai dengan strata tersebut.
+
+\hypertarget{bentuk-dan-jumlah-unit-cuplik}{%
+\section*{Bentuk dan jumlah unit cuplik}\label{bentuk-dan-jumlah-unit-cuplik}}
+\addcontentsline{toc}{section}{Bentuk dan jumlah unit cuplik}
+
+Unit cuplik yang sering dipergunakan oleh FFI`s IP untuk kajian biodiversitas biasanya adalah transek sepanjang 2 km untuk mamalia dan herpetofauna dengan kombinasi kuadrat plot untuk tumbuhan dan plot sirkular untuk burung disepanjang transek tersebut. Satu unit cuplik dengan desain tersebut dapat mencakup 2 ha untuk mamalia dan herpetofauna, 1,25 ha untuk vegetasi, serta 4.8 ha untuk burung.
+
+Jumlah unit cuplik disesuaikan dengan ketersediaan sumber daya yang ada. Dalam survei biodiversitas, tidak ada jumlah minimum yang pasti, namun umumnya peneliti mengevaluasi kecukukupan jumlah unit cuplik dari kurva akumulasi spesies paska survei selesai. Oleh karena itu penting untuk melihat referensi pada penelitian lain untuk menentukan jumlah unit cuplik yang sesuai pada karakteristik habitat atau lokasi yang sama sebelum survei dimulai.
+
+Pendekatan lain yang dapat digunakan untuk menentukan jumlah unit cuplik minimum adalah menggunakan metode yang dikembangkan oleh \href{https://winrock.org/document/winrock-sample-plot-calculator-spreadsheet-tool/}{Winrock International}, dengan memasukan luas setiap strata, ukuran plot dan nilai estimasi rerata kandungan biomassa pada tipe habitat serupa. \emph{Tools} tersebut sering digunakan dan diakui untuk kajian dan monitoring proyek-proyek restorasi.
 
 \hypertarget{protokol-survei}{%
 \chapter*{Protokol Survei}\label{protokol-survei}}
@@ -1636,7 +1695,7 @@ Lembar data ini merupakan bagian kedua dari set lembar data vegetasi untuk menul
 
 Seringkali spesies yang ditemukan saat pengamatan belum bisa teridentifikasi hingga ke tingkat \emph{species}. Ketika hal ini terjadi, umumnya pengamat harus menangkap jenis tersebut untuk diawetkan sebagai spesimen awetan (\emph{voucher specimens}). Hal ini menjadi penting untuk dilakukan karena: (1) Memastikan identifikasi jenis secara akurat dan, (2) Meningkatkan pemahaman terhadap kemungkinan variasi jenis dari lokasi yang berbeda. Pengawetan spesimen ini juga dapat digunakan dikemudian hari oleh peneliti lain seperti studi DNA, revisi taksonomi dan sebagainya.
 
-Meskipun penting untuk dilakukan, perlu diperhatikan juga mengenai etika dalam pengumpulan jenis. Beberapa kawasan konservasi mungkin membutuhkan legalitas yang harus diurus sebelum dapat membawa spesimen keluar kawasan. Ketika dikawasan non-konservasi pun kita harus sadar terhadap kerentanan spesies tersebut dan dampak yang akan terjadi terhadap pengambilan hewan untuk dijadikan spesimen awetan. Jika anda menangkap dan membunuh banyak hewan untuk alasan penelitian, justru menimbulkan dampak yang negatif terhadap upaya konservasi yang sedang anda upayakan. Oleh karena itu, perijinan untuk pengambilan spesimen dan tempat penyimpanan spesimen (laboratorium zoologi atau herbarium di universitas terdekat) harus didapatkan terlebih dahulu sebelum melakukan kajian, supaya hewan yang sudah ditangkap tidak mati sia-sia dan dapat digunakan sebaik-baiknya untuk penelitian.
+Meskipun penting untuk dilakukan, perlu diperhatikan juga mengenai etika dalam koleksi spesimen awetan. Beberapa kawasan konservasi mungkin membutuhkan legalitas yang harus diurus sebelum dapat membawa spesimen keluar kawasan. Ketika dikawasan non-konservasi pun kita harus sadar terhadap kerentanan spesies tersebut dan dampak yang akan terjadi terhadap pengambilan spesies untuk dijadikan spesimen awetan. Jika anda menangkap dan membunuh banyak hewan untuk alasan penelitian, justru menimbulkan dampak yang negatif terhadap upaya konservasi yang sedang anda upayakan. Oleh karena itu, perijinan untuk pengambilan spesimen dan tempat penyimpanan spesimen (laboratorium zoologi atau herbarium di universitas terdekat) harus didapatkan terlebih dahulu sebelum melakukan kajian, supaya spesies yang sudah ditangkap tidak mati sia-sia dan dapat digunakan sebaik-baiknya untuk penelitian.
 
 \hypertarget{herpetofauna-1}{%
 \section*{Herpetofauna}\label{herpetofauna-1}}
@@ -1707,7 +1766,87 @@ Pengawetan satwa mamalia kecil dan kelelawar untuk identifikasi lebih lanjut ata
 \end{itemize}
 
 \hypertarget{vegetasi-1}{%
-\section*{vegetasi}\label{vegetasi-1}}
-\addcontentsline{toc}{section}{vegetasi}
+\section*{Vegetasi}\label{vegetasi-1}}
+\addcontentsline{toc}{section}{Vegetasi}
+
+Pengawetan tumbuhan dilakukan dengan tahapan sebagai berikut:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Gunting bagian ranting tumbuhan yang memiliki daun lengkap dan tidak rusak (jika ranting memiliki bunga dan buah akan lebih baik) dengan panjang minimal 30 cm, tidak lupa berikan label (etiket) untuk penanda spesies
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/ranting} 
+
+}
+
+\caption{Bagian tumbuhan seteleah digunting 30 cm}\label{fig:ranting}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Semprotkan alkohol 70\% keseluruh bagian yang sudah dipotong untuk mencegah tumbuhnya jamur yang dapat merusak bagian tumbuhan
+\item
+  Bungkus tumbuhan dengan koran dan sempotkan kembali alkohol 70\% dan masukan ke dalam plastik untuk dibawa keluar
+\item
+  Setelah sampai di kamp, keluarkan ranting dari plastik, semprotkan kembali dengan alkohol 70\% dan ganti koran pembungkus dengan yang baru
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/preherba} 
+
+}
+
+\caption{Membungkus ranting dengan kertas koran dan pengepresan dengan triplek}\label{fig:preherba}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Ranting yang sudah dibungkus dengan koran kemudian di jepit dengan triplek atau papan kardus dan dimasukan ke oven dengan suhu 60 derjat celcius selama kurang lebih 3x24 jam
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/oven} 
+
+}
+
+\caption{Pengeringan dengan menggunakan oven}\label{fig:oven}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Setelah kering, ranting tumbuhan dijahit atau di tempel ke kertas karton dan berikan keterangan yang berisi Nama kolektor, Tanggal dan Lokasi tumbuhan ditemukan, nomor/ kode spesimen, Habitat dan deskripsi mengenai tumbuhan.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/herba} 
+
+}
+
+\caption{Herbarium yang sudah kering dan siap disimpan }\label{fig:herba}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Untuk penyimpanan permanen, letakan herbarium pada kotak kedap udara atau tempat yang kering dan jemurlah herbarium sekali-kali dibawah sinar matahari.
+\end{enumerate}
 
 \end{document}

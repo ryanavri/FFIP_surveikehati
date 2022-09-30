@@ -4,6 +4,8 @@ author: "Biodive FFI`s IP"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
+classoption: oneside
+geometry: margin=2.5cm
 documentclass: book
 link-citations: yes
 #github-repo: ''

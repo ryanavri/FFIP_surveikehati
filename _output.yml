@@ -1,7 +1,7 @@
 bookdown::gitbook:
   css: style.css
   config:
-    toc:
+    toc: 
       before: |
         <li><a href="./">Draft panduan survei kehati</a></li>
       after: |
@@ -13,4 +13,5 @@ bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
+  toc_depth: 5
 bookdown::epub_book: default
