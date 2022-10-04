@@ -31,6 +31,12 @@ tab:bkk
 fig:figdst
 tab:tabgkj
 fig:figtag
+fig:foldering
+fig:folderingtabular
+fig:folderingdok
+fig:folderingdoktab
+fig:folderingsp
+fig:folderingsp2
 fig:ldpth
 fig:ldppl
 fig:ldpml

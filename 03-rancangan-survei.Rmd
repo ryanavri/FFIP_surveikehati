@@ -56,7 +56,7 @@ Meski demikian, jumlah pembagian unit cuplik disetiap strata bergantung pada pri
 knitr::include_graphics("images/randomstrat.jpg")
 ```
 
-Konsep stratifikasi juga bisa dilakukan paska survei, sebagai contoh jika transek atau plot yang digunakan sama antara vegetasi dan fauna. Kemudian, hasil survei vegetasi menemukan bahwa terdapat area dengan kepadatan biomasa yang tinggi, rendah dan sedang atau memiliki area dengan kelompok tipe vegetasi yang berbeda secara signifikan. Maka analisa untuk fauna bisa dikelompokan sesuai dengan strata tersebut.
+Konsep stratifikasi juga bisa dilakukan paska survei, sebagai contoh jika transek atau plot yang digunakan sama antara vegetasi dan fauna. Kemudian, hasil survei vegetasi menemukan bahwa terdapat area dengan kepadatan biomasa yang signifikan berbeda atau memiliki area dengan kelompok tipe vegetasi yang berbeda secara signifikan. Maka analisa untuk fauna bisa dikelompokan sesuai dengan strata dari analisa vegetasi tersebut.
 
 ## Bentuk dan jumlah unit cuplik {-}
 Unit cuplik yang sering dipergunakan oleh FFI`s IP untuk kajian biodiversitas adalah transek sepanjang 2 km untuk mamalia dan herpetofauna dengan kombinasi kuadrat plot untuk tumbuhan dan plot sirkular untuk burung disepanjang transek tersebut. Satu unit cuplik dengan desain tersebut dapat mencakup 2 ha untuk mamalia dan herpetofauna, 1,25 ha untuk vegetasi, serta 4.8 ha untuk burung.
@@ -104,4 +104,4 @@ Table: (\#tab:tabaltrans) Peralatan yang dibutuhkan tim pembuatan transek
 
 * Navigator selain merekam jalur dengan GPS, juga menandai area yang sudah dibuka dengan pita tagging setiap 50 meter pada ranting pohon.
 
-* Navigator juga disarankan untuk mencatat temuan lain ke dalam GPS, fitur yang mungkin dapat digunakan oleh tim survei kehati, seperti: Sumber air, persimpangan, lokasi kamp ideal, lokasi dengan kajian bidoviersitas tinggi dan lainnya.
+* Navigator juga disarankan untuk mencatat temuan lain ke dalam GPS, fitur yang mungkin dapat digunakan oleh tim survei kehati, seperti: Sumber air, persimpangan, lokasi kamp ideal, lokasi dengan konsentrasi biodiversitas yang tinggi dan lainnya.
