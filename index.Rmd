@@ -7,6 +7,8 @@ output: bookdown::gitbook
 classoption: oneside
 geometry: margin=2.5cm
 documentclass: book
+bibliography: [book.bib, packages.bib]
+csl: apa-single-spaced.csl
 link-citations: yes
 #github-repo: ''
 description: "Draft panduan survei kehati"
@@ -21,3 +23,11 @@ Panduan ini ditujukan bagi siapa saja yang berminat untuk melakukan survei keane
 Panduan ini dibuat sebagai ringkasan secara umum untuk melakukan pemantauan pada 4 taksa sebagai berikut; Avifauna, Herpetofauna, Mamalia serta Vegetasi yang berada dalam bioma terestrial. Panduan ini memiliki beberapa asumsi yang harus dipenuhi serta berbagai keterbatasan, disesuaikan dengan target dan luaran dari survei itu sendiri. 
 
 Kami menyadari bahwasannya metode pemantauan kehati selalu berkembang sehingga timbal balik dari pembaca diharapkan dapat terus menyempurnakan kebutuhan yang sesuai bagi para praktisi konservasi yang menggunakan panduan ini.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib', width = 60)
+```

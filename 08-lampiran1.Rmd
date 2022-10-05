@@ -1,3 +1,5 @@
+# (APPENDIX) Lampiran {-} 
+
 # Lampiran 1. Lembar Data {-}
 
 Peran lembar data dalam kajian survei kehati sangat penting. Penggunaan lembar data yang tepat membuat pencatatan temuan menjadi lebih efisien dan terstandarisasi. Dalam lampiran ini terlampir contoh-contoh lembar data untuk setiap taksa. Templat lembar data tersedia pada tautan ini: [_Tallysheet-biodive_](https://github.com/ryanavri/FFIP_surveikehati/tree/main/appendices/tallysheets). Pembaca bisa mengunduh dan memperbanyak lembar data sebanyak yang dibutuhkan sebelum survei. Pada praktiknya, mungkin lembar data yang penulis sediakan belum mencakup hal spesifik yang dibutuhkan oleh projek, oleh karena itu pembaca bisa menambahkan sendiri kolom-kolom yang dibutuhkan. 
